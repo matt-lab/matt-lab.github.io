@@ -110,7 +110,7 @@ author:
   location         : "Perth, Western Australia"
   email            :
   links:
-    - label: "matthew.andreotta@research.uwa.edu.au"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:matthew.andreotta@research.uwa.edu.au
     - label: "Website"
@@ -134,13 +134,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/MattAndreotta"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/AndreottaM"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
