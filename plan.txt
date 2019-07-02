@@ -1,0 +1,7 @@
+-about
+-collaborators
+-thesis
+-publications
+-presentations
+-scientific community (OS, zine, committment to OS, OL)
+-general community
