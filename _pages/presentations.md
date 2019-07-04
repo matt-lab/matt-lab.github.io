@@ -7,10 +7,10 @@ A compilation of my conference presentations, seminars, tutorials, and posters.
 
 # Conferences
 
-Andreotta, M., Nugroho, R., Hurlstone, M., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). [*Analysing social media: a mixed-methods framework for combining computational and text analysis*](../attachments/presentations/ampc2019.pdf) for **Australasian Mathematical Psychology Conference (AMPC)**.
+Andreotta, M., Nugroho, R., Hurlstone, M., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). [*Analysing social media: a mixed-methods framework for combining computational and text analysis*](../assets/presentations/ampc2019.pdf) for **Australasian Mathematical Psychology Conference (AMPC)**.
 
 # Industry
 
-Andreotta, M., Nugroho, R., Hurlstone, M., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). *Analysing social media: a mixed-methods framework for combining computational and text analysis* ([.pdf](../attachments/presentations/oaa2019.pdf), [.pptx](../attachments/presentations/oaa2019.pptx)) for **Oceans & Atmosphere, Commonwealth Scientific and Industrial Research Organisation (CSIRO)**.
+Andreotta, M., Nugroho, R., Hurlstone, M., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). *Analysing social media: a mixed-methods framework for combining computational and text analysis* ([.pdf](../assets/presentations/oaa2019.pdf), [.pptx](../assets/presentations/oaa2019.pptx)) for **Oceans & Atmosphere, Commonwealth Scientific and Industrial Research Organisation (CSIRO)**.
 
 Andreotta, M., Nugroho, R., Hurlstone, M., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). *Analysing social media: a mixed-methods framework for combining computational and text analysis* for **Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO)**.
