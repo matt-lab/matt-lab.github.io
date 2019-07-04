@@ -19,7 +19,7 @@ locale                   : "en-GB"
 title                    : "Matt Andreotta"
 title_separator          : "|"
 name                     : "Matthew Andreotta"
-description              : "Website for Matthew Andreotta."
+description              : #"Website for Matthew Andreotta."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "Matt Andreotta"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Contrary to the URL, not actually a fan of proprietary code"
+  avatar           : https://i1.rgstatic.net/ii/profile.image/717735239626752-1548132824243_Q128/Matthew_Andreotta.jpg
+  bio              : "Psychology PhD student with the University of Western Australia & Data61, CSIRO. Contrary to the URL, not actually a fan of proprietary code"
   location         : "Perth, Western Australia"
   email            :
   links:
