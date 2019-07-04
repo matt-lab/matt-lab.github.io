@@ -1,6 +1,6 @@
 # main links
 main:
-  -title: "Presentations"
+  - title: "Presentations"
     url:  /presentations/
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
