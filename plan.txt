@@ -1,7 +1,7 @@
 -about
--collaborators
+-collaborators x
 -thesis
--publications
--presentations
+-publications x
+-presentations x
 -scientific community (OS, zine, committment to OS, OL)
 -general community

@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Collaborators"
+    url:  /collaborators/
   - title: "Publications"
     url:  /publications/
   - title: "Presentations"
