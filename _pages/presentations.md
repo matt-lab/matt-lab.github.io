@@ -11,7 +11,7 @@ Andreotta, M., Nugroho, R., Hurlstone, M., Boschetti, F., Farrell, S., Walker, I
 
 # University
 
-Andreotta, M., Nugroho, R., Hurlstone, M., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). *Tweeting about climate change: Blending data science and psychology to analyse social media*([.pdf](../assets/presentations/envt2221-2019.pdf), [.pptx](../assets/presentations/envt2221-2019.pptx)) for the **Climate Change Forum (ENVT2221)** at the *University of Western Australia*.
+Andreotta, M., Nugroho, R., Hurlstone, M., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). *Tweeting about climate change: Blending data science and psychology to analyse social media* ([.pdf](../assets/presentations/envt2221-2019.pdf), [.pptx](../assets/presentations/envt2221-2019.pptx)) for the **Climate Change Forum (ENVT2221)** at the *University of Western Australia*.
 
 # Industry
 
