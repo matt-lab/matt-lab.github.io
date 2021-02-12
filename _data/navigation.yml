@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "CV"
+    url:  https://matt-lab.github.io/assets/cv
   - title: "Collaborators"
     url:  /collaborators/
   - title: "Publications"
