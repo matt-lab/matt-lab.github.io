@@ -13,11 +13,21 @@ title: "Collaborators"
 
 [Cecile Paris](https://people.csiro.au/P/C/Cecile-Paris) Data61, Commonwealth Scientific and Industrial Research Organisation
 
-[Iain Walker](https://www.canberra.edu.au/research/institutes/health-research-institute/members/members/academic-staff/iain-walker) University of Canberra
+[Iain Walker](https://psychology.anu.edu.au/people/academics/professor-iain-walker) Australian National University
 
 # Collaborators
 
+[Craig Cooper](https://scholars.okstate.edu/en/persons/craig-cooper) Oklahoma State University
+
+[Ullrich Ecker](https://www.emc-lab.org/) University of Western Australia
+
+[Sam Jellison](https://scholars.okstate.edu/en/persons/craig-cooper) Oklahoma State University
+
 [Robertus Nugroho](http://robertusnugroho.com/) Soegijapranata Catholic University
+
+[Lucy Robinson](https://research-repository.uwa.edu.au/en/persons/lucy-robinson) University of Western Australia
+
+[Matt Vassar](https://scholars.okstate.edu/en/persons/matt-vassar) Oklahoma State University
 
 # Supervised students
 
