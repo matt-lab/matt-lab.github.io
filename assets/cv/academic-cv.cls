@@ -77,7 +77,7 @@
 % Needed for hanging indents
 \usepackage{hanging}
 %Need for references
-\usepackage[bibstyle=apa,citestyle=numeric-comp,backend=biber,doi=false,sorting=none,sortcites=true,block=none,hyperref=true]{biblatex}
+\usepackage[bibstyle=apa,citestyle=numeric-comp,backend=biber,doi=false,,sorting=none,sortcites=true,block=none,hyperref=true]{biblatex}
 \DeclareFieldFormat{labelnumberwidth}{\mkbibbrackets{#1}}
 
 \defbibenvironment{bibliography}
@@ -165,7 +165,7 @@
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
 % Set the FontAwesome font to be up-to-date.
-%\newfontfamily\FA[Path=\@fontdir]{FontAwesome}
+\newfontfamily\FA[Path=\@fontdir]{FontAwesome}
 % Set font for header (default is Roboto)
 \newfontfamily\headerfont[
   Path=\@fontdir,

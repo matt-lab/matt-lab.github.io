@@ -13,7 +13,7 @@ Boschetti, F., & **Andreotta, M.** (2017). Mental models, communication, and eng
 
 # Peer Reviewed Manuscripts - In Preparation
 
-**Andreotta, M.**, Boschetti, F., Farrell, S., Paris, C., Walker, I., & Hurlstone, M. J. (2021, in preparation). Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication. [\[Preprint\]](../assets/papers/audience-segments.pdf)
+**Andreotta, M.**, Boschetti, F., Farrell, S., Paris, C., Walker, I., & Hurlstone, M. J. (2021, in preparation). Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication. [\[Preprint\]](../assets/papers/audience-segments.pdf).
 
 Jellison, S., **Andreotta, M.**, Cooper, C., Paris, P., Nugroho, R., & Vassar, M. (2021, in preparation). The use of Twitter in the Post Publication Peer Review process.
 
