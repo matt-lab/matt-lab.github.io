@@ -5,7 +5,7 @@ title: "Collaborators"
 
 # Supervisors
 
-[Mark Hurlstone](http://mark-hurlstone.github.io/) University of Western Australia
+[Mark Hurlstone](http://mark-hurlstone.github.io/) Lancaster University
 
 [Simon Farrell](https://psy-farrell.github.io/) University of Western Australia
 
@@ -17,9 +17,11 @@ title: "Collaborators"
 
 # Collaborators
 
-[Craig Cooper](https://scholars.okstate.edu/en/persons/craig-cooper) Oklahoma State University
+[Matt Vassar](https://scholars.okstate.edu/en/persons/matt-vassar) Oklahoma State University
 
 [Ullrich Ecker](https://www.emc-lab.org/) University of Western Australia
+
+[Craig Cooper](https://scholars.okstate.edu/en/persons/craig-cooper) Oklahoma State University
 
 [Sam Jellison](https://scholars.okstate.edu/en/persons/craig-cooper) Oklahoma State University
 
@@ -27,7 +29,6 @@ title: "Collaborators"
 
 [Lucy Robinson](https://research-repository.uwa.edu.au/en/persons/lucy-robinson) University of Western Australia
 
-[Matt Vassar](https://scholars.okstate.edu/en/persons/matt-vassar) Oklahoma State University
 
 # Supervised students
 
