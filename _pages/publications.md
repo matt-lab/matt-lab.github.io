@@ -13,11 +13,16 @@ Boschetti, F., & **Andreotta, M.** (2017). Mental models, communication, and eng
 
 # Peer Reviewed Manuscripts - In Preparation
 
-**Andreotta, M.**, Boschetti, F., Farrell, S., Paris, C., Walker, I., & Hurlstone, M. J. (2021, in preparation). Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication. [\[Preprint\]](../assets/papers/audience-segments.pdf).
+**Andreotta, M.**, Boschetti, F., Farrell, S., Paris, C., Walker, I., & Hurlstone, M. J. (2021, in preparation). Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication.
 
 Jellison, S., **Andreotta, M.**, Cooper, C., Paris, P., Nugroho, R., & Vassar, M. (2021, in preparation). The use of Twitter in the Post Publication Peer Review process.
 
 Mortimer, M., Rossen, I., **Andreotta, M.**, Dunlop, P., & Hurlstone, M. J. (2021, in preparation). Accepters, fence sitters, or rejecters revisited: Converging evidence for different moral profiles of vaccination attitudes.
+
+# PhD Thesis
+
+**Andreotta, M.**, Boschetti, F., Farrell, S., Paris, C., Walker, I., & Hurlstone, M. J. (2021). Mental models under ideological constraints: The psychological signatures underscoring audience segments of climate change
+. *University of Western Australia* & *Data61 of the Commonwealth Scientific and Industrial Research Organisation*. [https://doi.org/10.26182/2jsy-8n04](https://research-repository.uwa.edu.au/en/publications/mental-models-under-ideological-constraints-the-psychological-sig).
 
 # Zines
 
