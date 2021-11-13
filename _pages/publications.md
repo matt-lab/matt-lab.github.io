@@ -5,7 +5,7 @@ title: "Publications"
 
 # Peer Reviewed Manuscripts - Published on In Press
 
-Ecker, U. K. H., Sze, B. K. N., & **Andreotta, M.** (2021). Corrections of political misinformation: No evidence for an effect of partisan worldview in a U.S. convenience sample. *Philosophical Transactions of the Royal Society B*, *376*(1822), 1-8. [https://doi.org/10.1098/rstb.2020.0145](https://doi.org/10.1098/rstb.2020.0145). [\[Repository\]](https://psyarxiv.com/bszm4/). [\[Repository\]](https://osf.io/y8t3b/).
+Ecker, U. K. H., Sze, B. K. N., & **Andreotta, M.** (2021). Corrections of political misinformation: No evidence for an effect of partisan worldview in a U.S. convenience sample. *Philosophical Transactions of the Royal Society B*, *376*(1822), 1-8. [https://doi.org/10.1098/rstb.2020.0145](https://doi.org/10.1098/rstb.2020.0145). [\[Preprint\]](https://psyarxiv.com/bszm4/). [\[Repository\]](https://osf.io/y8t3b/).
 
 **Andreotta, M.**, Nugroho, R., Hurlstone, M. J., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). Analyzing social media data: A mixed-methods framework combining computational and qualitative text analysis. *Behavior research methods*, *51*(4), 1-16. [https://doi.org/10.3758/s13428-019-01202-8](https://doi.org/10.3758/s13428-019-01202-8). [\[Preprint\]](https://psyarxiv.com/bynz4/). [\[Repository\]](https://github.com/AndreottaM/TopicAlignment/).
 
