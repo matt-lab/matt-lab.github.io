@@ -77,7 +77,7 @@
 % Needed for hanging indents
 \usepackage{hanging}
 %Need for references
-\usepackage[bibstyle=apa,citestyle=numeric-comp,backend=biber,doi=false,,sorting=none,sortcites=true,block=none,hyperref=true]{biblatex}
+\usepackage[bibstyle=apa,citestyle=numeric-comp,backend=biber,doi=false,sorting=none,sortcites=true,block=none,hyperref=true]{biblatex}
 \DeclareFieldFormat{labelnumberwidth}{\mkbibbrackets{#1}}
 
 \defbibenvironment{bibliography}
@@ -165,9 +165,9 @@
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
 % Set the FontAwesome font to be up-to-date.
-\newfontfamily\FA[Path=\@fontdir]{FontAwesome}
+\setfontfamily\FA[Path=\@fontdir]{FontAwesome}
 % Set font for header (default is Roboto)
-\newfontfamily\headerfont[
+\setfontfamily\headerfont[
   Path=\@fontdir,
   UprightFont=*-Regular,
   ItalicFont=*-Italic,
@@ -175,7 +175,7 @@
   BoldItalicFont=*-BoldItalic,
 ]{Roboto}
 
-\newfontfamily\headerfontlight[
+\setfontfamily\headerfontlight[
   Path=\@fontdir,
   UprightFont=*-Thin,
   ItalicFont=*-ThinItalic,
@@ -493,7 +493,7 @@
 % Usage: \cvsection{<section-title>}
 \newcommand{\cvsection}[1]{%
   \vspace{\acvSectionTopSkip}
-  \sectionstyle{#1} 
+  \sectionstyle{#1}
   \phantomsection
   \color{gray}\vhrulefill{0.9pt}
 }
