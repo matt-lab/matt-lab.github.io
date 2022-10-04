@@ -1,0 +1,42 @@
+---
+title: "New website, thanks to Quarto"
+description: |
+    Quarto is the gift that keeps on giving.
+date: "2022-10-04"
+categories: [website, quarto]
+image: "photo_orb.avif"
+from: markdown+emoji
+---
+
+Today, I upload a new version of my academic website.
+All thanks to the magic of :sparkles: Quarto :sparkles:.
+
+For the unaware, Quarto is an open-source publishing system.
+I first started using Quarto to seamlessly use Python and R in the same markdown document.
+But Quarto can do so much more: books, presentations, and of course, websites.
+
+Overall, the process of building rather painless.
+Partly because Quarto has comprehensive documentation and partly because I followed the footsteps of those before me.
+For readers interested in building a website with Quarto, here are the websites I found useful:
+
+## Foundations
+
+* Creating a website | `r fontawesome::fa("book", fill = "#2C3E50")` [Quarto documentation](https://quarto.org/docs/websites/)
+* Creating your personal website using Quarto, by Sam Csik | `r fontawesome::fa("rss", fill = "#2C3E50")` [Blog post](https://ucsb-meds.github.io/creating-quarto-websites/)
+* We don't talk about Quarto, by Alison Hill | `r fontawesome::fa("rss", fill = "#2C3E50")` [Blog post](https://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/)
+* Quarto for the curious, by Tom Mock | `r fontawesome::fa("person-chalkboard", fill =  "#2C3E50")` [Slides](https://thomasmock.quarto.pub/quarto-curious/#/TitleSlide)
+
+## Tips and tricks
+
+* Quarto for an Academic Website by Drew Dimmery | `r fontawesome::fa("rss", fill = "#2C3E50")` [Blog post](https://ddimmery.com/posts/quarto-website/)
+* Porting a distill blog to quarto, by Danielle Navarro | `r fontawesome::fa("rss", fill = "#2C3E50")` [Blog post](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/)
+* A Quarto tip a day keeps the docs away, by Mine Çetinkaya-Rundel | `r fontawesome::fa("rss", fill = "#2C3E50")` [Blog post](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/about.html) | `r fontawesome::fa("twitter", fill = "#2C3E50")` [Twitter](https://twitter.com/quarto_pub/status/1552632464907988992)
+
+## Visuals
+
+* Some emojis supported by Quarto | `r fontawesome::fa("github", fill = "#2C3E50")` [Github gist](https://gist.github.com/rxaviers/7360908)
+* Bootstrap icons supported by Quarto | `r fontawesome::fa("b", fill = "#2C3E50")` [Icons](https://icons.getbootstrap.com/)
+* Font awesome extension for Quarto | `r fontawesome::fa("circle-down", fill = "#2C3E50")` [Extension](https://github.com/quarto-ext/fontawesome) | `r fontawesome::fa("font-awesome", fill = "#2C3E50")` [Icons](https://fontawesome.com/search?m=free)
+* Unsplash, a database of photos for free use | `r fontawesome::fa("camera-retro", fill = "#2C3E50")` [Photos](https://unsplash.com/) | `r fontawesome::fa("file-lines", fill = "#2C3E50")` [License](https://unsplash.com/license)
+* Pexels, another database of photos for free use | `r fontawesome::fa("camera-retro", fill = "#2C3E50")` [Photos](https://www.pexels.com/) | `r fontawesome::fa("file-lines", fill = "#2C3E50")` [License](https://www.pexels.com/license/)
+* Bootswatch, free out-of-the-box colour schemes for your Quarto documents | `r fontawesome::fa("palette", fill = "#2C3E50")` [Palettes](https://bootswatch.com/)

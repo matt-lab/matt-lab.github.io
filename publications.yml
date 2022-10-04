@@ -1,0 +1,143 @@
+thesis:
+    title: "Mental models under ideological constraints: The psychological signatures underscoring audience segments of climate change"
+    authors:
+      - me
+      - Boschetti, F.
+      - Farrell, S.
+      - Paris, C.
+      - Walker, I.
+      - Hurlstone, M. J.
+    year: 2021
+    preprint: 
+    published_url: https://research-repository.uwa.edu.au/en/publications/mental-models-under-ideological-constraints-the-psychological-sig
+    github:
+    osf:
+    outlet: University of Western Australia & Data61 of the Commonwealth Scientific and Industrial Research Organisation
+    volume:
+    issue:
+    pages:
+
+dementia_letter:
+    title: "Comments on Westera et al. (2022), \"Support for people with dementia experiencing severe responsive behaviours: Unpacking the disconnect between policy and practice\""
+    authors:
+      - me
+      - Atee, M.
+      - Morris, T.
+      - Alford, M.
+    year: 2022
+    preprint:
+    published_url: https://onlinelibrary.wiley.com/doi/10.1111/ajag.13121
+    github:
+    osf:
+    outlet: Australasian Journal on Ageing
+    volume:
+    issue:
+    pages: 1-2
+
+
+dementia_chaplain:
+    title: "Improving quality in pastoral care using the Pastoral Care Activity Tracker (PCAT): A feasibility study of a digital tool within an Australian healthcare organization"
+    authors:
+      - Calder, S.
+      - me
+      - Morris, T.
+      - Atee, M.
+    year: 2022
+    preprint:
+    published_url: https://www.tandfonline.com/doi/pdf/10.1080/08854726.2022.2091837
+    github:
+    osf:
+    outlet: Journal of Health Care Chaplaincy
+    volume:
+    issue:
+    pages: 1-16
+
+misinformation_2021:
+    title: "Corrections of political misinformation: No evidence for an effect of partisan worldview in a U.S. convenience sample"
+    authors:
+      - Ecker, U. K. H.
+      - Sze, B. K. N.
+      - me
+    year: 2021
+    preprint: https://psyarxiv.com/bszm4/
+    published_url: https://doi.org/10.1098/rstb.2020.0145
+    github:
+    osf: https://osf.io/y8t3b/
+    outlet: Philosophical Transactions of the Royal Society B
+    volume: 376
+    issue: 1882
+    pages: 1-8
+
+
+twitter_2019:
+    title: "Analyzing social media data: A mixed-methods framework combining computational and qualitative text analysis"
+    authors:
+      - me
+      - Nugroho, R.
+      - Hurlstone, M. J.
+      - Boschetti, F.
+      - Farrell, S.
+      - Walker, I.
+      - Paris, C.
+    year: 2019
+    preprint: https://psyarxiv.com/bynz4/
+    published_url: https://doi.org/10.3758/s13428-019-01202-8
+    github: https://github.com/AndreottaM/TopicAlignment/
+    osf:
+    outlet: Behavior Research Methods
+    volume: 51
+    issue: 4
+    pages: 1766-1781
+
+marine_2017:
+    title: "Mental models, communication, and engagement in marine projects"
+    authors:
+      - Boschetti, F.
+      - me
+    year: 2017
+    preprint: https://www.researchgate.net/publication/345774414_Mental_models_communication_and_engagement_in_marine_projects
+    published_url: https://academic.oup.com/icesjms/article/74/7/2034/2907793
+    github:
+    osf:
+    outlet: ICES Journal of Marine Science
+    volume: 74
+    issue: 7
+    pages: 2034-2039
+
+working_academic:
+    title: "The use of Twitter in the Post Publication Peer Review process"
+    authors:
+      - Jellison, S.
+      - me
+      - Cooper, C.
+      - Paris, P.
+      - Nugroho, R.
+      - Vassar, M.
+    year:
+    preprint:
+    published_url:
+    github:
+    osf:
+    outlet:
+    volume:
+    issue:
+    pages:
+
+
+working_vaccine:
+    title: "Accepters, Fence sitters, or rejecters revisited: Converging evidence for different moral profiles of vaccination attitudes"
+    authors:
+      - Mortimer, M.
+      - Rossen, I.
+      - me
+      - Dunlop, P.
+      - Hurlstone, M. J.
+    year:
+    preprint:
+    published_url:
+    github:
+    osf:
+    outlet:
+    volume:
+    issue:
+    pages:

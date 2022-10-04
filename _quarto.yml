@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Matthew Andreotta"
+  site-url: https://matt-lab.github.io
+  twitter-card:
+    creator: "@MattAndreotta"
+  open-graph: true
+  description: "Matthew Andreotta | Postdoctoral Fellow | CSIRO"
+  google-analytics: "G-36XVQ86SSB"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - publications.qmd
+      - presentations.qmd
+      - collaborators.qmd
+    right:
+      - href: assets/cv/cv.pdf
+        text: Academic CV
+      - icon: rss
+        href: index.xml
+format:
+  html:
+    theme:
+      light: flatly
+      dark: slate
+    css: styles.css
+    toc: true
+    link-external-newwindow: true
+
+execute:
+  echo: false
+  warning: false
+  error: false
+
+
+
+

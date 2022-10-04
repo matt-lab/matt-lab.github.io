@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Matthew Andreotta</title>
+<link>https://matt-lab.github.io/index.html</link>
+<atom:link href="https://matt-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>Matthew Andreotta | Postdoctoral Fellow | CSIRO</description>
+<image>
+<url>https://matt-lab.github.io/assets/images/me.jfif</url>
+<title>Matthew Andreotta</title>
+<link>https://matt-lab.github.io/index.html</link>
+</image>
+<generator>quarto-1.0.38</generator>
+<lastBuildDate>Mon, 03 Oct 2022 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>New website, thanks to Quarto</title>
+  <dc:creator>Matthew Andreotta</dc:creator>
+  <link>https://matt-lab.github.io/posts/2022-10-04_new-website/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Today, I upload a new version of my academic website. All thanks to the magic of <span class="emoji" data-emoji="sparkles">✨</span> Quarto <span class="emoji" data-emoji="sparkles">✨</span>.</p>
+<p>For the unaware, Quarto is an open-source publishing system. I first started using Quarto to seamlessly use Python and R in the same markdown document. But Quarto can do so much more: books, presentations, and of course, websites.</p>
+<p>Overall, the process of building rather painless. Partly because Quarto has comprehensive documentation and partly because I followed the footsteps of those before me. For readers interested in building a website with Quarto, here are the websites I found useful:</p>
+<section id="foundations" class="level2">
+<h2 class="anchored" data-anchor-id="foundations">Foundations</h2>
+<ul>
+<li>Creating a website |  <a href="https://quarto.org/docs/websites/">Quarto documentation</a></li>
+<li>Creating your personal website using Quarto, by Sam Csik |  <a href="https://ucsb-meds.github.io/creating-quarto-websites/">Blog post</a></li>
+<li>We don’t talk about Quarto, by Alison Hill |  <a href="https://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/">Blog post</a></li>
+<li>Quarto for the curious, by Tom Mock |  <a href="https://thomasmock.quarto.pub/quarto-curious/#/TitleSlide">Slides</a></li>
+</ul>
+</section>
+<section id="tips-and-tricks" class="level2">
+<h2 class="anchored" data-anchor-id="tips-and-tricks">Tips and tricks</h2>
+<ul>
+<li>Quarto for an Academic Website by Drew Dimmery |  <a href="https://ddimmery.com/posts/quarto-website/">Blog post</a></li>
+<li>Porting a distill blog to quarto, by Danielle Navarro |  <a href="https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/">Blog post</a></li>
+<li>A Quarto tip a day keeps the docs away, by Mine Çetinkaya-Rundel |  <a href="https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/about.html">Blog post</a> |  <a href="https://twitter.com/quarto_pub/status/1552632464907988992">Twitter</a></li>
+</ul>
+</section>
+<section id="visuals" class="level2">
+<h2 class="anchored" data-anchor-id="visuals">Visuals</h2>
+<ul>
+<li>Some emojis supported by Quarto |  <a href="https://gist.github.com/rxaviers/7360908">Github gist</a></li>
+<li>Bootstrap icons supported by Quarto |  <a href="https://icons.getbootstrap.com/">Icons</a></li>
+<li>Font awesome extension for Quarto |  <a href="https://github.com/quarto-ext/fontawesome">Extension</a> |  <a href="https://fontawesome.com/search?m=free">Icons</a></li>
+<li>Unsplash, a database of photos for free use |  <a href="https://unsplash.com/">Photos</a> |  <a href="https://unsplash.com/license">License</a></li>
+<li>Pexels, another database of photos for free use |  <a href="https://www.pexels.com/">Photos</a> |  <a href="https://www.pexels.com/license/">License</a></li>
+<li>Bootswatch, free out-of-the-box colour schemes for your Quarto documents |  <a href="https://bootswatch.com/">Palettes</a></li>
+</ul>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{andreotta2022,
+  author = {Matthew Andreotta},
+  title = {New Website, Thanks to {Quarto}},
+  date = {2022-10-04},
+  url = {https://matt-lab.github.io/posts/2022-10-04_new-website},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-andreotta2022" class="csl-entry quarto-appendix-citeas">
+Matthew Andreotta. 2022. <span>“New Website, Thanks to Quarto.”</span>
+October 4, 2022. <a href="https://matt-lab.github.io/posts/2022-10-04_new-website">https://matt-lab.github.io/posts/2022-10-04_new-website</a>.
+</div></div></section></div> ]]></description>
+  <category>website</category>
+  <category>quarto</category>
+  <guid>https://matt-lab.github.io/posts/2022-10-04_new-website/index.html</guid>
+  <pubDate>Mon, 03 Oct 2022 16:00:00 GMT</pubDate>
+  <media:content url="https://matt-lab.github.io/posts/2022-10-04_new-website/photo_orb.avif" medium="image" type="image/avif"/>
+</item>
+</channel>
+</rss>

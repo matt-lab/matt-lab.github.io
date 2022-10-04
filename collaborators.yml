@@ -1,0 +1,97 @@
+mark:
+  name: Mark Hurlstone
+  affiliation: Lancaster University
+  website: http://mark-hurlstone.github.io/
+  expertise: psychology
+iain:
+  name: Iain Walker
+  affiliation: University of Melbourne
+  website: https://findanexpert.unimelb.edu.au/profile/676978-iain-walker
+  expertise: psychology
+cecile:
+  name: C&eacute;cile Paris
+  affiliation: Data61, Commonwealth Scientific and Industrial Research Organisation
+  website: https://people.csiro.au/P/C/Cecile-Paris
+  expertise: data science
+simon:
+  name: Simon Farrell
+  affiliation: University of Western Australia
+  website: https://psy-farrell.github.io/
+  expertise: psychology
+fabio:
+  name: Fabio Boschetti
+  affiliation: Oceans & Atmosphere, Commonwealth Scientific and Industrial Research Organisation
+  website: http://www.per.marine.csiro.au/staff/Fabio.Boschetti/
+  expertise: applied mathematics
+ingrid:
+  name: Ingrid van Putten
+  affiliation: Oceans & Atmosphere, Commonwealth Scientific and Industrial Research Organisation
+  website: https://people.csiro.au/V/I/Ingrid-Vanputten
+  expertise: economics
+robinson:
+  name: Lucy Robinson
+  affiliation: Oceans & Atmosphere, Commonwealth Scientific and Industrial Research Organisation
+  website: https://orcid.org/0000-0001-9324-401X
+  expertise: environmental science
+vassar:
+  name: Matt Vassar
+  affiliation: Oklahoma State University
+  website: https://scholars.okstate.edu/en/persons/matt-vassar
+  expertise: meta-research
+cooper:
+  name: Craig Cooper
+  affiliation: Oklahoma State University
+  website: https://scholars.okstate.edu/en/persons/craig-cooper
+  expertise: meta-research
+jellison:
+  name: Samuel Jellison
+  affiliation: Oklahoma State University
+  website: https://scholars.okstate.edu/en/persons/samuel-jellison
+  expertise: meta-research
+ecker:
+  name: Ullrich Ecker
+  affiliation: University of Western Australia
+  website: https://www.emc-lab.org/
+  expertise: psychology
+nugroho:
+  name: Robertus Nugroho
+  affiliation: Soegijapranata Catholic University
+  website: http://robertusnugroho.com/
+  expertise: data science
+atee:
+  name: Mustafa Atee
+  affiliation: HammondCare
+  website: https://au.linkedin.com/in/mustafa-atee-phd-a416816b
+  expertise: clinical research
+morris:
+  name: Thomas Morris
+  affiliation: HammondCare
+  website: https://au.linkedin.com/in/tom-morris-8727828b
+  expertise: clinical research
+alford:
+  name: Marie Alford
+  affiliation: HammondCare
+  website: https://au.linkedin.com/in/marie-alford-a475641a
+  expertise: clinical research
+calder:
+  name: Steve Calder
+  affiliation: HammondCare
+  expertise: clinical research
+nunn:
+  name: Julia Nunn
+  affiliation: University of Western Australia
+  student: true
+  supervision: Mark Hurlstone
+  project: climate change negotiations
+sharpe:
+  name: Emma Sharpe
+  affiliation: University of Western Australia
+  student: true
+  supervision: Mark Hurlstone
+  project: climate change negotiations
+mortimer:
+  name: Matthew Mortimer
+  affiliation: University of Western Australia
+  student: true
+  supervision: Mark Hurlstone
+  project: vaccine hesitancy

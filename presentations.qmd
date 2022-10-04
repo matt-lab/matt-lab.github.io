@@ -1,0 +1,88 @@
+---
+title: "Presentations"
+echo: false
+jupyter: python3
+section-divs: false
+keep-md: true
+---
+
+A selection of my conference presentations, seminars, talks to research labs, tutorials, and posters.
+
+
+```{python}
+# Courtesy of https://ddimmery.com/posts/quarto-website/
+# Drew Dimmery. 2022. “Quarto for an Academic Website.” May 11, 2022. https://ddimmery.com/posts/quarto-website.
+import yaml
+from IPython.display import display, Markdown, HTML
+from datetime import date
+
+def readable_list(_s):
+  if len(_s) < 3:
+    return ' and '.join(map(str, _s))
+  *a, b = _s
+  return f"{', '.join(map(str, a))}, & {b}"
+def button(url, path, str, icon):
+    icon_base = icon[:2]
+    url_full = f"assets/{path}/{url}"
+    return f"""<a class="btn btn-outline-dark btn-sm", href="{url_full}" target="_blank" rel="noopener noreferrer">
+        <i class="{icon_base} {icon}" role='img' aria-label='{str}'></i>
+        {str}
+    </a>"""
+
+yaml_data = yaml.safe_load(open("presentations.yml"))
+presentation_strs = {"presentations": {}}
+
+for _, data in yaml_data.items():
+
+    title_str = data["title"]
+    authors = data.get("authors", ["me"])
+    authors = [aut if aut != "me" else "<strong>Andreotta, M.</strong>" for aut in authors]
+    author_str = readable_list(authors)
+    year = data["year"]
+    
+    buttons = []
+    path = data.get("type")
+    pdf = data.get("pdf")
+    if pdf is not None:
+        buttons.append(button(pdf, path, "PDF", "bi-file-earmark-pdf"))
+    pptx = data.get("pptx")
+    if pptx is not None:
+        buttons.append(button(pptx, path, "PPTX", "bi-filetype-pptx"))
+
+    delivered_to = data.get("for")
+    location = data.get("location")
+    setting = data.get("setting")
+    presentation_type = data.get("type")
+
+    presentation_str = f'{author_str} ({year}). <em>{title_str}</em> for {delivered_to}'
+
+    if location is not None:
+        presentation_str += f" at {location}"
+
+    if presentation_type == "presentation":
+        if setting not in presentation_strs["presentations"]:
+            presentation_strs["presentations"].update({setting: {}})
+        if year not in presentation_strs["presentations"][setting]:
+            presentation_strs["presentations"][setting][year] = []
+        presentation_strs["presentations"][setting][year].append(
+            "<li class='list-group-item'>" + presentation_str + "." + "<br>" + " ".join(buttons) + "</li>"
+        )
+```
+
+## Presentations
+
+```{python}
+#| label: "presentations"
+#| id: "presentations"
+#| output: asis
+
+for setting in presentation_strs["presentations"].keys():
+    setting_key = setting.replace(" ", "-")
+    setting_title = setting.capitalize()
+    display(Markdown(f"### {setting_title}" + "{#" + f"setting_{setting_key}" + "}"))
+
+    for year in sorted(presentation_strs["presentations"][setting].keys(), reverse = True):
+        display(HTML(
+            "<ul class='list-group list-group-flush'>" + '\n'.join(presentation_strs["presentations"][setting][year]) + "</ul>"
+        ))
+```

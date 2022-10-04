@@ -1,0 +1,46 @@
+---
+title: "Matthew Andreotta"
+image: assets\images\me.jfif
+listing:
+  feed: true
+  contents: posts
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  image-height: 200px
+  page-size: 100
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+
+about:
+    template: solana
+    image-shape: round
+    image-width: 15em
+    links:
+        -   text: Perth, Western Australia
+            href: https://iomrc.org/
+            icon: geo-alt
+        -   text: Email
+            href: mailto:matthew.andreotta@csiro.au
+            icon: envelope
+        -   text: Twitter
+            href: https://twitter.com/MattAndreotta
+            icon: twitter
+        -   text: Google Scholar
+            href: https://scholar.google.com.au/citations?user=-aoCvdoAAAAJ
+            icon: google
+        -   text: Github
+            href: https://github.com/matt-lab
+            icon: github
+---
+
+Welcome!
+
+I am a social and cognitive psychologist interested in belief formation and change. I blend psychology with data science techniques to identify meaningful patterns in social media data that reflect public perceptions and opinions. I have applied my methods to pressing societal issues, such as climate change, the influence of misinformation, and detection of research with misconduct or integrity concerns. A more comprehensive account of my history can be found in [my curriculum vitae](assets/cv/cv.pdf).
+
+I hold a postdoctoral fellowship Commonwealth Scientific and Industrial Research Organisation (CSIRO). The aim of my current research is to develop semi-automated approaches to monitor social acceptance and social change concerning the marine environment. Building on social psychology theory and current advances in Big Data, I provide intelligence on public perceptions and warning about events needing intervention to pre-empt conflicts and ensure public support.
+
+# Recent updates

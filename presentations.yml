@@ -1,0 +1,53 @@
+ampc_2019:
+  title: "Analysing social media: a mixed-methods framework for combining computational and text analysis"
+  authors:
+      - me
+      - Nugroho, R.
+      - Hurlstone, M. J.
+      - Boschetti, F.
+      - Farrell, S.
+      - Walker, I.
+      - Paris, C.
+  year: 2019
+  pdf: ampc2019.pdf
+  pptx:
+  for: the Australasian Mathematical Psychology Conference (AMPC)
+  location:
+  type: presentation
+  setting: conferences
+
+envt_2221:
+  title: "Tweeting about climate change: Blending data science and psychology to analyse social media"
+  authors:
+      - me
+      - Nugroho, R.
+      - Hurlstone, M. J.
+      - Boschetti, F.
+      - Farrell, S.
+      - Walker, I.
+      - Paris, C.
+  year: 2019
+  pdf: envt2221-2019.pdf
+  pptx: envt2221-2019.pptx
+  for: the Climate Change Forum (ENVT2221)
+  location: the University of Western Australia
+  type: presentation
+  setting: university
+
+data61_2019:
+  title: "Analysing social media: a mixed-methods framework for combining computational and text analysis"
+  authors:
+      - me
+      - Nugroho, R.
+      - Hurlstone, M. J.
+      - Boschetti, F.
+      - Farrell, S.
+      - Walker, I.
+      - Paris, C.
+  year: 2019
+  pdf: data2019.pdf
+  pptx: data2019.pptx
+  for: Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+  location:
+  type: presentation
+  setting: research labs

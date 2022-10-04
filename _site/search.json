@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Matthew Andreotta",
+    "section": "",
+    "text": "I am a social and cognitive psychologist interested in belief formation and change. I blend psychology with data science techniques to identify meaningful patterns in social media data that reflect public perceptions and opinions. I have applied my methods to pressing societal issues, such as climate change, the influence of misinformation, and detection of research with misconduct or integrity concerns. A more comprehensive account of my history can be found in my curriculum vitae.\nI hold a postdoctoral fellowship Commonwealth Scientific and Industrial Research Organisation (CSIRO). The aim of my current research is to develop semi-automated approaches to monitor social acceptance and social change concerning the marine environment. Building on social psychology theory and current advances in Big Data, I provide intelligence on public perceptions and warning about events needing intervention to pre-empt conflicts and ensure public support.\n\nRecent updates\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew website, thanks to Quarto\n\n\nQuarto is the gift that keeps on giving.\n\n\n\nMatthew Andreotta\n\n\nOct 4, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "2022\nAndreotta, M., Atee, M., Morris, T., & Alford, M. (2022). Comments on Westera et al. (2022), \"Support for people with dementia experiencing severe responsive behaviours: Unpacking the disconnect between policy and practice\". Australasian Journal on Ageing, 1-2.\n        \n        Published\n    \nCalder, S., Andreotta, M., Morris, T., & Atee, M. (2022). Improving quality in pastoral care using the Pastoral Care Activity Tracker (PCAT): A feasibility study of a digital tool within an Australian healthcare organization. Journal of Health Care Chaplaincy, 1-16.\n        \n        Published\n    \n2021\nEcker, U. K. H., Sze, B. K. N., & Andreotta, M. (2021). Corrections of political misinformation: No evidence for an effect of partisan worldview in a U.S. convenience sample. Philosophical Transactions of the Royal Society B, 376(1882), 1-8.\n        \n        Preprint\n     \n        \n        OSF\n     \n        \n        Published\n    \n2019\nAndreotta, M., Nugroho, R., Hurlstone, M. J., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). Analyzing social media data: A mixed-methods framework combining computational and qualitative text analysis. Behavior Research Methods, 51(4), 1766-1781.\n        \n        Preprint\n     \n        \n        Github\n     \n        \n        Published\n    \n2017\nBoschetti, F. and Andreotta, M. (2017). Mental models, communication, and engagement in marine projects. ICES Journal of Marine Science, 74(7), 2034-2039.\n        \n        Preprint\n     \n        \n        Published\n    \nWorking Papers\n2022\nJellison, S., Andreotta, M., Cooper, C., Paris, P., Nugroho, R., & Vassar, M. (2022). The use of Twitter in the Post Publication Peer Review process.\nMortimer, M., Rossen, I., Andreotta, M., Dunlop, P., & Hurlstone, M. J. (2022). Accepters, Fence sitters, or rejecters revisited: Converging evidence for different moral profiles of vaccination attitudes.\nPhD Thesis\nAndreotta, M., Boschetti, F., Farrell, S., Paris, C., Walker, I., & Hurlstone, M. J. (2021). Mental models under ideological constraints: The psychological signatures underscoring audience segments of climate change. University of Western Australia & Data61 of the Commonwealth Scientific and Industrial Research Organisation.\n        \n        Online"
+  },
+  {
+    "objectID": "posts/2020-03-17_new-paper/index.html",
+    "href": "posts/2020-03-17_new-paper/index.html",
+    "title": "New paper in Philosophical Transactions of the Royal Society B",
+    "section": "",
+    "text": "Misinformation often has a continuing effect on people’s reasoning despite clear correction. One factor assumed to affect post-correction reliance on misinformation is worldview-driven motivated reasoning. For example, a recent study with an Australian undergraduate sample found that when politically situated misinformation was retracted, political partisanship influenced the effectiveness of the retraction. This worldview effect was asymmetrical, that is, particularly pronounced in politically conservative participants. However, the evidence regarding such worldview effects (and their symmetry) has been inconsistent. Thus, the present study aimed to extend previous findings by examining a sample of 429 pre-screened US participants supporting either the Democratic or Republican Party. Participants received misinformation suggesting that politicians of either party were more likely to commit embezzlement; this was or was not subsequently retracted, and participants’ inferential reasoning was measured. While political worldview (i.e. partisanship) influenced the extent to which participants relied on the misinformation overall, retractions were equally effective across all conditions. There was no impact of political worldview on retraction effectiveness, let alone evidence of a backfire effect, and thus we did not replicate the asymmetry observed in the Australian-based study. This pattern emerged despite some evidence that Republicans showed a stronger emotional response than Democrats to worldview-incongruent misinformation.\n\n\n\n\nReusehttps://creativecommons.org/licenses/by/4.0/CitationBibTeX citation:@online{andreotta2020,\n  author = {Matthew Andreotta},\n  title = {New Paper in {Philosophical} {Transactions} of the {Royal}\n    {Society} {B}},\n  date = {2020-03-17},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nMatthew Andreotta. 2020. “New Paper in Philosophical Transactions\nof the Royal Society B.” March 17, 2020."
+  },
+  {
+    "objectID": "posts/2021-11-13_thesis/index.html",
+    "href": "posts/2021-11-13_thesis/index.html",
+    "title": "I completed my PhD!",
+    "section": "",
+    "text": "There is a pressing need to bolster public support for effective climate change mitigation policies. Much of climate and policy science communication can be classified as ‘one-size-fits-all,’ where the same strategies are used for all individuals. Yet, mounting evidence suggests the general public is not homogeneous in their receptivity to climate and policy science information. Instead, the public can be divided into homogeneous segments, each possessing a unique interpretation of climate change underpinned by their psychological characteristics. Messages can be tailored to the informational needs of each segment, in a manner that addresses misconceptions, leverages motivations, and accounts for cognitive characteristics and ideologies.\n\n\nContemporary approaches to audience segmentation typically use a top-down approach, whereby concepts salient in scientific literature determine the number and nature of segments. Instead, the current thesis develops and implements a bottom-up approach to segmentation, whereby views are gauged using concepts of climate change prominent in public discourse. In Chapter 1, I outline the two aims of this thesis. The first aim is a descriptive aim to identify audience segments of Australians using a bottom-up approach. The second aim is an explanatory aim to identify the psychological characteristics that underpin each segment. One characteristic—the mental model—receives unique emphasis, as mental models provide insight into how lay people’s understandings and misunderstandings combine to inform risk perceptions and decision making. Yet, mental models are understudied within the audience segmentation domain. In Chapter 2, I review the mental model literature. I find that researchers have applied a problematically narrow definition of mental models when investigating mental models of climate change.\n\n\nThis thesis includes two empirical chapters investigating Australian samples. In Chapter 3, I use social media data to identify prominent climate change topics within Australian public discourse (N = 201,506 tweets). This is achieved using a novel mixed-methods framework that blends data science with qualitative techniques. I find evidence for five prominent topics of climate change discussion, some of which have been omitted in top-down approaches. In Chapter 4, I report two audience segmentation studies. Both studies identify audience segments using a bottom-up approach (the Q methodology), whereby participants indicate their views on the climate change concepts derived from the text analysis reported in Chapter 3. In the first study, I integrate my bottom-up approach to segmentation with a top-down consideration of theory by identifying the psychological characteristics that are diagnostic of each segment (N = 435). The bottom-up approach indicates three segments exist along a spectrum of climate change scepticism: Acceptors, Fencesitters, and Sceptics. The top-down inspection of the psychological characteristics of segments suggests Acceptors, Fencesitters, and Sceptics also sit upon a dimension of political ideology (from left-wing ideology to right-wing ideology), worry about climate change (decreasing in amount of worry), and environmental worldviews (increasing in worldview that the environment is able to easily recover from the effects of human activity). Sceptics display uniquely high self-perceived (but not actual) levels of climate change knowledge whereas Fencesitters display the greatest levels of dispositional conspiratorial ideation and Acceptors display the lowest levels of dispositional conspiratorial ideation. Moreover, each segment has unique mental models of climate change. In the second study, I replicate the audience segmentation solution of the first study (N = 413). Additionally, I demonstrate each segment varies in their tendencies to update their beliefs when contradicted by scientific information. These tendencies can be understood by recourse to the psychological characteristics of each segment.\n\n\nOverall, my results suggest that scientific communication tailored for different segments may be more effective than a ‘one-size-fits-all’ approach. In Chapter 5, I synthesise the findings of this thesis. To communicators, this thesis provides strategies to tailor communication to each segment. To scientists, this thesis provides methodological innovations and theoretical developments. In particular, I challenge the assumptions of the mental models of climate change literature by identifying converging evidence that climate change views are underpinned by two different categories of mental models: (1) mental models of effective mitigation and (2) mental models of cause and consequence. I conclude the final chapter by motivating future directions for research from the limitations of this thesis.\n\n\n\n\nReusehttps://creativecommons.org/licenses/by/4.0/CitationBibTeX citation:@online{andreotta2021,\n  author = {Matthew Andreotta},\n  title = {I Completed My {PhD!}},\n  date = {2021-11-13},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nMatthew Andreotta. 2021. “I Completed My PhD!” November 13,\n2021."
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Presentations\nConferences\nAndreotta, M., Nugroho, R., Hurlstone, M. J., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). Analysing social media: a mixed-methods framework for combining computational and text analysis for the Australasian Mathematical Psychology Conference (AMPC).\n        \n        PDF\n    \nUniversity\nAndreotta, M., Nugroho, R., Hurlstone, M. J., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). Tweeting about climate change: Blending data science and psychology to analyse social media for the Climate Change Forum (ENVT2221) at the University of Western Australia.\n        \n        PDF\n     \n        \n        PPTX\n    \nResearch labs\nAndreotta, M., Nugroho, R., Hurlstone, M. J., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). Analysing social media: a mixed-methods framework for combining computational and text analysis for Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO).\n        \n        PDF\n     \n        \n        PPTX"
+  },
+  {
+    "objectID": "presentations.html#conferences",
+    "href": "presentations.html#conferences",
+    "title": "Presentations",
+    "section": "Conferences",
+    "text": "Conferences\nAndreotta, M., Nugroho, R., Hurlstone, M., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). Analysing social media: a mixed-methods framework for combining computational and text analysis for Australasian Mathematical Psychology Conference (AMPC)."
+  },
+  {
+    "objectID": "presentations.html#university",
+    "href": "presentations.html#university",
+    "title": "Presentations",
+    "section": "University",
+    "text": "University\nAndreotta, M., Nugroho, R., Hurlstone, M., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). Tweeting about climate change: Blending data science and psychology to analyse social media (.pdf, .pptx) for the Climate Change Forum (ENVT2221) at the University of Western Australia."
+  },
+  {
+    "objectID": "presentations.html#research-groups",
+    "href": "presentations.html#research-groups",
+    "title": "Presentations",
+    "section": "Research groups",
+    "text": "Research groups\nAndreotta, M., Nugroho, R., Hurlstone, M., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). Analysing social media: a mixed-methods framework for combining computational and text analysis (.pdf, .pptx) for Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO)."
+  },
+  {
+    "objectID": "collaborators.html",
+    "href": "collaborators.html",
+    "title": "Collaborations",
+    "section": "",
+    "text": "Collaborators\nPsychology\nMark Hurlstone, Lancaster University.\nIain Walker, University of Melbourne.\nSimon Farrell, University of Western Australia.\nUllrich Ecker, University of Western Australia.\nData science\nCécile Paris, Data61, Commonwealth Scientific and Industrial Research Organisation.\nRobertus Nugroho, Soegijapranata Catholic University.\nApplied mathematics\nFabio Boschetti, Oceans & Atmosphere, Commonwealth Scientific and Industrial Research Organisation.\nEconomics\nIngrid van Putten, Oceans & Atmosphere, Commonwealth Scientific and Industrial Research Organisation.\nEnvironmental science\nLucy Robinson, Oceans & Atmosphere, Commonwealth Scientific and Industrial Research Organisation.\nMeta-research\nMatt Vassar, Oklahoma State University.\nCraig Cooper, Oklahoma State University.\nSamuel Jellison, Oklahoma State University.\nClinical research\nMustafa Atee, HammondCare.\nThomas Morris, HammondCare.\nMarie Alford, HammondCare.\nSteve Calder, HammondCare.\nSupervised students\nClimate change negotiations\nJulia Nunn, co-supervised with Mark Hurlstone at the University of Western Australia.\nEmma Sharpe, co-supervised with Mark Hurlstone at the University of Western Australia.\nVaccine hesitancy\nMatthew Mortimer, co-supervised with Mark Hurlstone at the University of Western Australia."
+  },
+  {
+    "objectID": "posts/2022-10-04_new-website/index.html",
+    "href": "posts/2022-10-04_new-website/index.html",
+    "title": "New website, thanks to Quarto",
+    "section": "",
+    "text": "Today, I upload a new version of my academic website. All thanks to the magic of ✨ Quarto ✨.\nFor the unaware, Quarto is an open-source publishing system. I first started using Quarto to seamlessly use Python and R in the same markdown document. But Quarto can do so much more: books, presentations, and of course, websites.\nOverall, the process of building rather painless. Partly because Quarto has comprehensive documentation and partly because I followed the footsteps of those before me. For readers interested in building a website with Quarto, here are the websites I found useful:"
+  },
+  {
+    "objectID": "posts/2022-10-04_new-website/index.html#foundations",
+    "href": "posts/2022-10-04_new-website/index.html#foundations",
+    "title": "New website, thanks to Quarto",
+    "section": "Foundations",
+    "text": "Foundations\n\nCreating a website |  Quarto documentation\nCreating your personal website using Quarto, by Sam Csik |  Blog post\nWe don’t talk about Quarto, by Alison Hill |  Blog post\nQuarto for the curious, by Tom Mock |  Slides"
+  },
+  {
+    "objectID": "posts/2022-10-04_new-website/index.html#tips-and-tricks",
+    "href": "posts/2022-10-04_new-website/index.html#tips-and-tricks",
+    "title": "New website, thanks to Quarto",
+    "section": "Tips and tricks",
+    "text": "Tips and tricks\n\nQuarto for an Academic Website by Drew Dimmery |  Blog post\nPorting a distill blog to quarto, by Danielle Navarro |  Blog post\nA Quarto tip a day keeps the docs away, by Mine Çetinkaya-Rundel |  Blog post |  Twitter"
+  },
+  {
+    "objectID": "posts/2022-10-04_new-website/index.html#visuals",
+    "href": "posts/2022-10-04_new-website/index.html#visuals",
+    "title": "New website, thanks to Quarto",
+    "section": "Visuals",
+    "text": "Visuals\n\nSome emojis supported by Quarto |  Github gist\nBootstrap icons supported by Quarto |  Icons\nFont awesome extension for Quarto |  Extension |  Icons\nUnsplash, a database of photos for free use |  Photos |  License\nPexels, another database of photos for free use |  Photos |  License\nBootswatch, free out-of-the-box colour schemes for your Quarto documents |  Palettes"
+  }
+]

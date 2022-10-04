@@ -1,0 +1,94 @@
+---
+title: "Collaborations"
+echo: false
+jupyter: python3
+section-divs: false
+keep-md: true
+---
+
+In my scientific pursuits, I have had the pleasure of working with researchers from a range of disciplines.
+
+```{python}
+# Inspired by https://ddimmery.com/posts/quarto-website/
+# Drew Dimmery. 2022. “Quarto for an Academic Website.” May 11, 2022. https://ddimmery.com/posts/quarto-website.
+import yaml
+from IPython.display import display, Markdown, HTML
+from datetime import date
+
+
+yaml_data = yaml.safe_load(open("collaborators.yml"))
+collab_strs = {"collab": {}, "students": {}}
+
+for _, data in yaml_data.items():
+    name = data["name"]
+    is_student = "student" in data.keys()
+    has_website = "website" in data.keys()
+    has_affiliation = "affiliation" in data.keys()
+
+    if is_student:
+        is_student = data["student"]
+
+
+    if is_student:
+        project = data["project"]
+        affiliation = data["affiliation"]
+        has_cosupervision = "supervision" in data.keys()
+
+        collab_str = f"{name},"
+
+        if has_cosupervision:
+            collab_str += f' co-supervised with {data["supervision"]} at'
+        
+        collab_str += f" the {affiliation}"
+
+        if project not in collab_strs["students"]:
+            collab_strs["students"][project] = []
+        collab_strs["students"][project].append("<li class='list-group-item'>" + collab_str + "." + "</li>")
+
+
+        
+    else:
+        expertise = data["expertise"]
+
+        if not has_website:
+            collab_str = name
+        else:
+            collab_str = f'<a href="{data["website"]}" target="_blank">{name}</a>'
+        if has_affiliation:
+            collab_str += f', {data["affiliation"]}'
+        
+        if expertise not in collab_strs["collab"]:
+            collab_strs["collab"][expertise] = []
+        collab_strs["collab"][expertise].append("<li class='list-group-item'>" + collab_str + "." + "</li>")
+```
+
+## Collaborators
+
+```{python}
+#| label: "collaborators"
+#| id: "collaborators"
+#| output: asis
+for expertise in collab_strs["collab"].keys():
+    expertise_key = expertise.replace(" ", "-")
+    expertise_title = expertise.capitalize()
+    display(Markdown(f"### {expertise_title}" + "{#" + f"expertise-{expertise_key}" + "}"))
+    display(HTML(
+        "<ul class='list-group list-group-flush'>" + '\n'.join(collab_strs["collab"][expertise]) + "</ul>"
+    ))
+```
+
+## Supervised students
+
+```{python}
+#| label: "students"
+#| id: "students"
+#| output: asis
+for project in collab_strs["students"].keys():
+    project_key = project.replace(" ", "-")
+    project_title = project.capitalize()
+    display(Markdown(f"### {project_title}" + "{#" + f"expertise-{project_key}" + "}"))
+    display(HTML(
+        "<ul class='list-group list-group-flush'>" + '\n'.join(collab_strs["students"][project]) + "</ul>"
+    ))
+
+```
