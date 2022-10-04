@@ -9,7 +9,10 @@ website:
     creator: "@MattAndreotta"
   open-graph: true
   description: "Matthew Andreotta | Postdoctoral Fellow | CSIRO"
-  google-analytics: "G-36XVQ86SSB"
+  google-analytics:
+    tracking-id: "G-36XVQ86SSB"
+    anonymize-ip: true
+    storage: none
   navbar:
     left:
       - href: index.qmd
