@@ -7,6 +7,7 @@ website:
   site-url: https://matt-lab.github.io
   twitter-card:
     creator: "@MattAndreotta"
+    image: "/assets/images/me.jfif"
   open-graph: true
   description: "Matthew Andreotta | Postdoctoral Fellow | CSIRO"
   google-analytics:
