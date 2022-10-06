@@ -39,7 +39,7 @@ about:
 
 Welcome!
 
-I am a social and cognitive psychologist interested in belief formation and change. I blend psychology with data science techniques to identify meaningful patterns in social media data that reflect public perceptions and opinions. I have applied my methods to pressing societal issues, such as climate change, the influence of misinformation, and detection of research with misconduct or integrity concerns. A more comprehensive account of my history can be found in [my curriculum vitae](assets/cv/cv.pdf).
+I am a social and cognitive psychologist interested in belief formation and change. I blend psychology with data science techniques to identify meaningful patterns in social media data that reflect public perceptions and opinions. I have applied my methods to pressing societal issues, such as climate change, the influence of misinformation, and detection of research with misconduct or integrity concerns. A more comprehensive account of my history can be found in <a href="https://matt-lab.github.io/assets/cv/cv.pdf" target="_blank" rel="noopener noreferrer">my curriculum vitae</a>.
 
 I hold a postdoctoral fellowship Commonwealth Scientific and Industrial Research Organisation (CSIRO). The aim of my current research is to develop semi-automated approaches to monitor social acceptance and social change concerning the marine environment. Building on social psychology theory and current advances in Big Data, I provide intelligence on public perceptions and warning about events needing intervention to pre-empt conflicts and ensure public support.
 
