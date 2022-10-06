@@ -13,13 +13,23 @@ keep-md: true
 ### 2022{#published-2022}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Andreotta, M.</strong>, Atee, M., Morris, T., & Alford, M. (2022). Comments on Westera et al. (2022), "Support for people with dementia experiencing severe responsive behaviours: Unpacking the disconnect between policy and practice". <em>Australasian Journal on Ageing</em>, 1-2.<br><a class="btn btn-outline-dark btn-sm", href="https://onlinelibrary.wiley.com/doi/10.1111/ajag.13121" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-text" role='img' aria-label='Published'></i>
-        Published
+<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Andreotta, M.</strong>, Boschetti, F., Farrell, S., Paris, C., Walker, I., & Hurlstone, M. J. (in-press). Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication. <em>Climatic Change</em>.<br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/64j7g/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://github.com/AndreottaM/audience-segmentation" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github" role='img' aria-label='Github'></i>
+        Github
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/5sgw6/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-box" role='img' aria-label='OSF'></i>
+        OSF
+    </a></li>
+<li class='list-group-item'><strong>Andreotta, M.</strong>, Atee, M., Morris, T., & Alford, M. (2022). Comments on Westera et al. (2022), "Support for people with dementia experiencing severe responsive behaviours: Unpacking the disconnect between policy and practice". <em>Australasian Journal on Ageing</em>, 1-2.<br><a class="btn btn-outline-dark btn-sm", href="https://onlinelibrary.wiley.com/doi/10.1111/ajag.13121" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-text" role='img' aria-label='Publication'></i>
+        Publication
     </a></li>
 <li class='list-group-item'>Calder, S., <strong>Andreotta, M.</strong>, Morris, T., & Atee, M. (2022). Improving quality in pastoral care using the Pastoral Care Activity Tracker (PCAT): A feasibility study of a digital tool within an Australian healthcare organization. <em>Journal of Health Care Chaplaincy</em>, 1-16.<br><a class="btn btn-outline-dark btn-sm", href="https://www.tandfonline.com/doi/pdf/10.1080/08854726.2022.2091837" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-text" role='img' aria-label='Published'></i>
-        Published
+        <i class="bi bi-file-text" role='img' aria-label='Publication'></i>
+        Publication
     </a></li></ul>
 ```
 
@@ -33,8 +43,8 @@ keep-md: true
         <i class="bi bi-box" role='img' aria-label='OSF'></i>
         OSF
     </a> <a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.1098/rstb.2020.0145" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-text" role='img' aria-label='Published'></i>
-        Published
+        <i class="bi bi-file-text" role='img' aria-label='Publication'></i>
+        Publication
     </a></li></ul>
 ```
 
@@ -48,8 +58,8 @@ keep-md: true
         <i class="bi bi-github" role='img' aria-label='Github'></i>
         Github
     </a> <a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.3758/s13428-019-01202-8" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-text" role='img' aria-label='Published'></i>
-        Published
+        <i class="bi bi-file-text" role='img' aria-label='Publication'></i>
+        Publication
     </a></li></ul>
 ```
 
@@ -60,8 +70,8 @@ keep-md: true
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
         Preprint
     </a> <a class="btn btn-outline-dark btn-sm", href="https://academic.oup.com/icesjms/article/74/7/2034/2907793" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-text" role='img' aria-label='Published'></i>
-        Published
+        <i class="bi bi-file-text" role='img' aria-label='Publication'></i>
+        Publication
     </a></li></ul>
 ```
 

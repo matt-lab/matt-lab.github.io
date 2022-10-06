@@ -15,7 +15,46 @@
 <link>https://matt-lab.github.io/index.html</link>
 </image>
 <generator>quarto-1.0.38</generator>
-<lastBuildDate>Mon, 03 Oct 2022 16:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 05 Oct 2022 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>New article: “Evidence for three distinct climate change audience segments with varying belief updating tendencies”</title>
+  <dc:creator>Matthew Andreotta</dc:creator>
+  <link>https://matt-lab.github.io/posts/2022-10-06_new-article/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>My research paper, titled “Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication” has just been accepted for publication in <em>Climatic Change</em>. Co-written with my PhD supervisors, the paper describes the survey and psychological experiments from the final chapters of my PhD thesis. We identified three segments of Australians with different perceptions of climate change, where each segment was underscored by a unique signature of psychological characteristics and belief-updating tendencies. Based on these psychological profiles, we recommend specific strategies for communicating climate change with each segment.</p>
+<p>The abstract for the peer-reviewed research paper is available below:</p>
+<blockquote class="blockquote">
+<p>Mounting evidence suggests members of the general public are not homogeneous in their receptivity to climate science information. Studies segmenting climate change views typically deploy a top-down approach, whereby concepts salient in scientific literature determine the number and nature of segments. In contrast, in two studies using Australian citizens, we used a bottom-up approach, in which segments were determined from perceptions of climate change concepts derived from citizen social media discourse. In Study 1, we identified three segments of the Australian public (Acceptors, Fencesitters, and Sceptics) and their psychological characteristics. We find segments differ in climate change concern and scepticism, mental models of climate, political ideology, and worldviews. In Study 2, we examined whether reception to scientific information differed across segments using a belief-updating task. Participants reported their beliefs concerning the causes of climate change, the likelihood climate change will have specific impacts, and the effectiveness of Australia’s mitigation policy. Next, participants were provided with the actual scientific estimates for each event and asked to provide new estimates. We find significant heterogeneity in the belief-updating tendencies of the three segments that can be understood with reference to their different psychological characteristics. Our results suggest tailored scientific communications informed by the psychological profiles of different segments may be more effective than a `one-size-fits-all’ approach. Using our novel audience segmentation analysis, we provide some practical suggestions regarding how communication strategies can be improved by accounting for segments’ characteristics.</p>
+</blockquote>
+<p>You can read more about this research in the <a href="https://psyarxiv.com/64j7g" target="_blank" rel="noopener noreferrer">freely-available preprint</a>.</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{andreotta2022,
+  author = {Matthew Andreotta},
+  title = {New Article: “{Evidence} for Three Distinct Climate Change
+    Audience Segments with Varying Belief Updating Tendencies”},
+  date = {2022-10-06},
+  url = {https://matt-lab.github.io/posts/2022-10-06_new-article},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-andreotta2022" class="csl-entry quarto-appendix-citeas">
+Matthew Andreotta. 2022. <span>“New Article: <span>‘Evidence for Three
+Distinct Climate Change Audience Segments with Varying Belief Updating
+Tendencies’</span>.”</span> October 6, 2022. <a href="https://matt-lab.github.io/posts/2022-10-06_new-article">https://matt-lab.github.io/posts/2022-10-06_new-article</a>.
+</div></div></section></div> ]]></description>
+  <category>research</category>
+  <category>article</category>
+  <category>climate change</category>
+  <category>public perceptions</category>
+  <guid>https://matt-lab.github.io/posts/2022-10-06_new-article/index.html</guid>
+  <pubDate>Wed, 05 Oct 2022 16:00:00 GMT</pubDate>
+  <media:content url="https://matt-lab.github.io/posts/2022-10-06_new-article/thumbnail.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>New website, thanks to Quarto</title>
   <dc:creator>Matthew Andreotta</dc:creator>

@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://matt-lab.github.io/about.html</loc>
-    <lastmod>2022-10-04T08:43:33.992Z</lastmod>
+    <lastmod>2022-10-06T03:37:54.868Z</lastmod>
   </url>
   <url>
     <loc>https://matt-lab.github.io/collaborators.html</loc>
-    <lastmod>2022-10-04T08:43:39.232Z</lastmod>
+    <lastmod>2022-10-06T03:37:58.672Z</lastmod>
   </url>
   <url>
     <loc>https://matt-lab.github.io/index.html</loc>
-    <lastmod>2022-10-06T02:33:16.180Z</lastmod>
+    <lastmod>2022-10-06T03:37:59.464Z</lastmod>
   </url>
   <url>
     <loc>https://matt-lab.github.io/posts/2022-10-04_new-website/index.html</loc>
-    <lastmod>2022-10-04T08:43:40.643Z</lastmod>
+    <lastmod>2022-10-06T03:38:00.277Z</lastmod>
+  </url>
+  <url>
+    <loc>https://matt-lab.github.io/posts/2022-10-06_new-article/index.html</loc>
+    <lastmod>2022-10-06T03:38:01.033Z</lastmod>
   </url>
   <url>
     <loc>https://matt-lab.github.io/presentations.html</loc>
-    <lastmod>2022-10-04T08:43:44.378Z</lastmod>
+    <lastmod>2022-10-06T03:38:04.800Z</lastmod>
   </url>
   <url>
     <loc>https://matt-lab.github.io/publications.html</loc>
-    <lastmod>2022-10-04T08:43:47.925Z</lastmod>
+    <lastmod>2022-10-06T03:38:08.512Z</lastmod>
   </url>
 </urlset>

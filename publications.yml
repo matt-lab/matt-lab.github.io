@@ -17,6 +17,26 @@ thesis:
     issue:
     pages:
 
+segments:
+    title: "Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication"
+    authors:
+      - me
+      - Boschetti, F.
+      - Farrell, S.
+      - Paris, C.
+      - Walker, I.
+      - Hurlstone, M. J.
+    year: "in-press"
+    preprint: https://psyarxiv.com/64j7g/
+    published_url:
+    github: https://github.com/AndreottaM/audience-segmentation
+    osf: https://osf.io/5sgw6/
+    outlet: Climatic Change
+    volume:
+    issue:
+    pages:
+
+
 dementia_letter:
     title: "Comments on Westera et al. (2022), \"Support for people with dementia experiencing severe responsive behaviours: Unpacking the disconnect between policy and practice\""
     authors:
