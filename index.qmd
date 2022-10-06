@@ -30,7 +30,7 @@ about:
             href: https://twitter.com/MattAndreotta
             icon: twitter
         -   text: Google Scholar
-            href: https://scholar.google.com.au/citations?user=-aoCvdoAAAAJ
+            href: https://scholar.google.com.au/citations?user=SWYKi-QAAAAJ
             icon: google
         -   text: Github
             href: https://github.com/matt-lab
