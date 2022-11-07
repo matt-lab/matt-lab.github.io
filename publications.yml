@@ -26,14 +26,14 @@ segments:
       - Paris, C.
       - Walker, I.
       - Hurlstone, M. J.
-    year: "in-press"
-    preprint: https://psyarxiv.com/64j7g/
-    published_url:
+    year: 2022
+    preprint:
+    published_url: https://link.springer.com/article/10.1007/s10584-022-03437-5
     github: https://github.com/AndreottaM/audience-segmentation
     osf: https://osf.io/5sgw6/
     outlet: Climatic Change
-    volume:
-    issue:
+    volume: 174
+    issue: 3
     pages:
 
 

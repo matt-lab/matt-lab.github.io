@@ -8,7 +8,7 @@ image: "thumbnail.png"
 from: markdown+emoji
 ---
 
-My research paper, titled "Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication" has just been accepted for publication in *Climatic Change*. Co-written with my PhD supervisors, the paper describes the survey and psychological experiments from the final chapters of my PhD thesis. We identified three segments of Australians with different perceptions of climate change, where each segment was underscored by a unique signature of psychological characteristics and belief-updating tendencies. Based on these psychological profiles, we recommend specific strategies for communicating climate change with each segment.
+My research paper, titled "Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication" has just been accepted for publication in *Climatic Change*. Co-authored by my PhD supervisors, the paper describes the survey and psychological experiments from the final chapters of my PhD thesis. We identified three segments of Australians with different perceptions of climate change, where each segment was underscored by a unique signature of psychological characteristics and belief-updating tendencies. Based on these psychological profiles, we recommend specific strategies for communicating climate change with each segment.
 
 The abstract for the peer-reviewed research paper is available below:
 

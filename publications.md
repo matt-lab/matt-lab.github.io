@@ -13,15 +13,15 @@ keep-md: true
 ### 2022{#published-2022}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Andreotta, M.</strong>, Boschetti, F., Farrell, S., Paris, C., Walker, I., & Hurlstone, M. J. (in-press). Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication. <em>Climatic Change</em>.<br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/64j7g/" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
-        Preprint
-    </a> <a class="btn btn-outline-dark btn-sm", href="https://github.com/AndreottaM/audience-segmentation" target="_blank" rel="noopener noreferrer">
+<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Andreotta, M.</strong>, Boschetti, F., Farrell, S., Paris, C., Walker, I., & Hurlstone, M. J. (2022). Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication. <em>Climatic Change</em>, <em>174</em>(3).<br><a class="btn btn-outline-dark btn-sm", href="https://github.com/AndreottaM/audience-segmentation" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-github" role='img' aria-label='Github'></i>
         Github
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/5sgw6/" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-box" role='img' aria-label='OSF'></i>
         OSF
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://link.springer.com/article/10.1007/s10584-022-03437-5" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-text" role='img' aria-label='Publication'></i>
+        Publication
     </a></li>
 <li class='list-group-item'><strong>Andreotta, M.</strong>, Atee, M., Morris, T., & Alford, M. (2022). Comments on Westera et al. (2022), "Support for people with dementia experiencing severe responsive behaviours: Unpacking the disconnect between policy and practice". <em>Australasian Journal on Ageing</em>, 1-2.<br><a class="btn btn-outline-dark btn-sm", href="https://onlinelibrary.wiley.com/doi/10.1111/ajag.13121" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-text" role='img' aria-label='Publication'></i>
