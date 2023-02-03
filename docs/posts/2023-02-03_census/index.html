@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Matthew Andreotta">
+<meta name="dcterms.date" content="2023-02-03">
+<meta name="description" content="Recategorising census information to help build survey specifications.">
 
-<title>Matthew Andreotta</title>
+<title>Matthew Andreotta - Helpful Australian demographics for building representative samples of adults</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,25 +21,24 @@ ul.task-list{list-style: none;}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -56,35 +58,6 @@ ul.task-list{list-style: none;}
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-36XVQ86SSB"></script>
 
 <script type="text/javascript">
@@ -100,27 +73,26 @@ gtag('js', new Date());
 gtag('config', 'G-36XVQ86SSB', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Matthew Andreotta" href="index.xml"><meta property="og:title" content="Matthew Andreotta">
-<meta property="og:description" content="Welcome!">
-<meta property="og:image" content="https://matt-lab.github.io/assets\images\me.jfif">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Matthew Andreotta - Helpful Australian demographics for building representative samples of adults">
+<meta property="og:description" content="Recategorising census information to help build survey specifications.">
+<meta property="og:image" content="https://matt-lab.github.io/posts\2023-02-03_census\thumbnail.jpg">
 <meta property="og:site-name" content="Matthew Andreotta">
-<meta name="twitter:title" content="Matthew Andreotta">
-<meta name="twitter:description" content="Welcome!">
+<meta name="twitter:title" content="Matthew Andreotta - Helpful Australian demographics for building representative samples of adults">
+<meta name="twitter:description" content="Recategorising census information to help build survey specifications.">
 <meta name="twitter:image" content="https://matt-lab.github.io/assets/images/network.jpg">
 <meta name="twitter:creator" content="@MattAndreotta">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Matthew Andreotta</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -129,24 +101,24 @@ gtag('config', 'G-36XVQ86SSB', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+    <a class="nav-link" href="../../index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html">Publications</a>
+    <a class="nav-link" href="../../publications.html">Publications</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./presentations.html">Presentations</a>
+    <a class="nav-link" href="../../presentations.html">Presentations</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./collaborators.html">Collaborations</a>
+    <a class="nav-link" href="../../collaborators.html">Collaborations</a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./assets/cv/cv.pdf">Academic CV</a>
+    <a class="nav-link" href="../../assets/cv/cv.pdf">Academic CV</a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml"><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../index.xml"><i class="bi bi-rss" role="img">
 </i> 
  </a>
   </li>  
@@ -160,140 +132,75 @@ gtag('config', 'G-36XVQ86SSB', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Helpful Australian demographics for building representative samples of adults</h1>
+                  <div>
+        <div class="description">
+          <p>Recategorising census information to help build survey specifications.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">research</div>
+                <div class="quarto-category">survey</div>
+                <div class="quarto-category">data collection</div>
+                <div class="quarto-category">method</div>
+              </div>
+                  </div>
+  </div>
     
-<!-- main -->
-<div class="quarto-about-solana column-page">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Matthew Andreotta</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> <div class="about-links">
-  <a href="https://iomrc.org/" class="about-link">
-    <i class="bi bi-geo-alt"></i>
-     <span class="about-link-text">Perth, Western Australia</span>
-  </a>
-  <a href="mailto:matthew.andreotta@csiro.au" class="about-link">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://twitter.com/MattAndreotta" class="about-link">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://scholar.google.com.au/citations?user=SWYKi-QAAAAJ" class="about-link">
-    <i class="bi bi-google"></i>
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-  <a href="https://github.com/matt-lab" class="about-link">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p>Welcome!</p>
-<p>I am a social and cognitive psychologist interested in belief formation and change. I blend psychology with data science techniques to identify meaningful patterns in social media data that reflect public perceptions and opinions. I have applied my methods to pressing societal issues, such as climate change, the influence of misinformation, and detection of research with misconduct or integrity concerns. More broadly, I aim to make science more accessible to scientists and the public alike. A more comprehensive account of my history can be found in <a href="https://matt-lab.github.io/assets/cv/cv.pdf" target="_blank" rel="noopener noreferrer">my curriculum vitae</a>.</p>
-<p>I hold a postdoctoral fellowship Commonwealth Scientific and Industrial Research Organisation (CSIRO). The aim of my current research is to develop semi-automated approaches to monitor social acceptance and social change concerning the marine environment. Building on social psychology theory and current advances in Big Data, I aim to pre-empt conflict and identify the antecedents of public support.</p>
-<p>I am open to collaborations, invitations for guest lectures, co-supervision of students, and projects that increase the accessibility of science. If you are interested in working with me, please reach out.</p>
-<section id="recent-updates" class="level1">
-<h1>Recent updates</h1>
+  
+  <div class="quarto-title-meta">
 
-
-</section>
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="research,survey,data collection,method" data-listing-date-sort="1675353600000" data-listing-file-modified-sort="1675401067177" data-listing-reading-time-sort="0.395">
-<a href="./posts/2023-02-03_census/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/2023-02-03_census/thumbnail.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Helpful Australian demographics for building representative samples of adults
-</h5>
-<div class="card-text listing-description">
-<p>Recategorising census information to help build survey specifications.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Matthew Andreotta
-</div>
-<div class="listing-date">
-Feb 3, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="research,article,climate change,public perceptions" data-listing-date-sort="1664985600000" data-listing-file-modified-sort="1666672221276" data-listing-reading-time-sort="1.77">
-<a href="./posts/2022-10-06_new-article/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/2022-10-06_new-article/thumbnail.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New article: “Evidence for three distinct climate change audience segments with varying belief updating tendencies”
-</h5>
-<div class="card-text listing-description">
-<p>New peer-reviewed article in press at Climatic Change.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Matthew Andreotta
-</div>
-<div class="listing-date">
-Oct 6, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="website,quarto" data-listing-date-sort="1664812800000" data-listing-file-modified-sort="1664872391590" data-listing-reading-time-sort="1.585">
-<a href="./posts/2022-10-04_new-website/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/2022-10-04_new-website/thumbnail.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New website, thanks to Quarto
-</h5>
-<div class="card-text listing-description">
-<p>Quarto is the gift that keeps on giving.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Matthew Andreotta
-</div>
-<div class="listing-date">
-Oct 4, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main></div>
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Matthew Andreotta <a href="https://orcid.org/0000-0002-2996-6031" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+            </div>
     </div>
-    <img src="assets\images\me.jfif" class="about-image
-  round " style="height: 15em; width: 15em;">
-  </div>
-</div>
- <!-- /main -->
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 3, 2023</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>When trying to match Australia’s population demographics to my survey sample’s demographics, I sometimes find the Australian Bureau of Statistics’ reporting cumbersome. Namely, ten-year and five-year categorisation of ages combines children and adults in a 15-19 year category. This leaves me scratching my head over how many 18 and 19 year olds to include in my study of Australian adults. To alleviate this problem, I’ve reported some census statistics on Australian adults, which you can find <a href="https://matt-lab.github.io/2021_census_stats/">here</a>.</p>
+<p>Maybe they will help you too?</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{andreotta2023,
+  author = {Matthew Andreotta},
+  title = {Helpful {Australian} Demographics for Building Representative
+    Samples of Adults},
+  date = {2023-02-03},
+  url = {https://matt-lab.github.io/posts/2023-02-03_census},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-andreotta2023" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Matthew Andreotta. 2023. <span>“Helpful Australian Demographics for
+Building Representative Samples of Adults.”</span> February 3, 2023. <a href="https://matt-lab.github.io/posts/2023-02-03_census">https://matt-lab.github.io/posts/2023-02-03_census</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -417,6 +324,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
   } 
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;

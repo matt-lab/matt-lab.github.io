@@ -15,7 +15,41 @@
 <link>https://matt-lab.github.io/index.html</link>
 </image>
 <generator>quarto-1.0.38</generator>
-<lastBuildDate>Wed, 05 Oct 2022 16:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 02 Feb 2023 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Helpful Australian demographics for building representative samples of adults</title>
+  <dc:creator>Matthew Andreotta</dc:creator>
+  <link>https://matt-lab.github.io/posts/2023-02-03_census/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>When trying to match Australia’s population demographics to my survey sample’s demographics, I sometimes find the Australian Bureau of Statistics’ reporting cumbersome. Namely, ten-year and five-year categorisation of ages combines children and adults in a 15-19 year category. This leaves me scratching my head over how many 18 and 19 year olds to include in my study of Australian adults. To alleviate this problem, I’ve reported some census statistics on Australian adults, which you can find <a href="https://matt-lab.github.io/2021_census_stats/">here</a>.</p>
+<p>Maybe they will help you too?</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{andreotta2023,
+  author = {Matthew Andreotta},
+  title = {Helpful {Australian} Demographics for Building Representative
+    Samples of Adults},
+  date = {2023-02-03},
+  url = {https://matt-lab.github.io/posts/2023-02-03_census},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-andreotta2023" class="csl-entry quarto-appendix-citeas">
+Matthew Andreotta. 2023. <span>“Helpful Australian Demographics for
+Building Representative Samples of Adults.”</span> February 3, 2023. <a href="https://matt-lab.github.io/posts/2023-02-03_census">https://matt-lab.github.io/posts/2023-02-03_census</a>.
+</div></div></section></div> ]]></description>
+  <category>research</category>
+  <category>survey</category>
+  <category>data collection</category>
+  <category>method</category>
+  <guid>https://matt-lab.github.io/posts/2023-02-03_census/index.html</guid>
+  <pubDate>Thu, 02 Feb 2023 16:00:00 GMT</pubDate>
+  <media:content url="https://matt-lab.github.io/posts/2023-02-03_census/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>New article: “Evidence for three distinct climate change audience segments with varying belief updating tendencies”</title>
   <dc:creator>Matthew Andreotta</dc:creator>

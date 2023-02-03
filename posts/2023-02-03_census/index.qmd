@@ -1,0 +1,16 @@
+---
+title: 'Helpful Australian demographics for building representative samples of adults'
+description: |
+    Recategorising census information to help build survey specifications.
+date: "2023-02-03"
+categories: [research, survey, data collection, method]
+image: "thumbnail.jpg"
+from: markdown+emoji
+---
+
+When trying to match Australia's population demographics to my survey sample's demographics, I sometimes find the Australian Bureau of Statistics' reporting cumbersome.
+Namely, ten-year and five-year categorisation of ages combines children and adults in a 15-19 year category.
+This leaves me scratching my head over how many 18 and 19 year olds to include in my study of Australian adults.
+To alleviate this problem, I've reported some census statistics on Australian adults, which you can find [here](https://matt-lab.github.io/2021_census_stats/).
+
+Maybe they will help you too?
