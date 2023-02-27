@@ -12,7 +12,7 @@ keep-md: true
 import yaml
 from IPython.display import display, Markdown, HTML
 from datetime import date
-
+ 
 def readable_list(_s):
   if len(_s) < 3:
     return ' and '.join(map(str, _s))
@@ -25,7 +25,7 @@ def button(url, str, icon):
         {str}
     </a>"""
 yaml_data = yaml.safe_load(open("publications.yml"))
-pub_strs = {"pubs": {}, "wps": {}, "thesis": {}}
+pub_strs = {"pubs": {}, "wps": {}, "letters": {}, "thesis": {}}
 for _, data in yaml_data.items():
     title_str = data["title"]
     authors = data.get("authors", ["me"])
@@ -49,11 +49,12 @@ for _, data in yaml_data.items():
     volume = data.get("volume")
     issue = data.get("issue")
     pages = data.get("pages")
+    output = data.get("output")
 
     in_press = False
     if(isinstance(year_str, str)):
         in_press = "in-press" in year_str
-    working_paper = (pub_url is None) and not in_press
+    working_paper = ((pub_url is None) and not in_press) or output == "working"
     thesis = pub_url == "https://research-repository.uwa.edu.au/en/publications/mental-models-under-ideological-constraints-the-psychological-sig"
     pub_str = f'{author_str} ({year_str}). {title_str}.'
     if outlet is not None:
@@ -72,6 +73,16 @@ for _, data in yaml_data.items():
         pub_strs["wps"][year_str].append(
             "<li class='list-group-item'>" + pub_str + "<br>" + " ".join(buttons) + "</li>"
         )
+    elif output == "letter":
+        if in_press:
+            year_str = date.today().year
+        if year_str not in pub_strs["letters"]:
+            pub_strs["letters"][year_str] = []
+        if not in_press:
+            buttons.append(button(pub_url, "Letter", "bi-file-text"))
+        pub_strs["letters"][year_str].append(
+            "<li class='list-group-item'>" + pub_str + "<br>" + " ".join(buttons) + "</li>"
+        )        
     elif not thesis:
         if in_press:
             year_str = date.today().year
@@ -123,6 +134,16 @@ for year in sorted(pub_strs["wps"].keys(), reverse=True):
     ))
 ```
 
+## Letters to the Editor
+```{python}
+#| label: "letters-year"
+#| id: "letters-year"
+#| output: asis
+for year in sorted(pub_strs["letters"].keys(), reverse=True):
+    display(HTML(
+        "<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["letters"][year]) + "</ul>"
+    ))
+```
 
 ## PhD Thesis
 

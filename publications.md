@@ -10,6 +10,18 @@ keep-md: true
 
 ## Peer-Reviewed Publications
 
+### 2023{#published-2023}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'>Atee, M., <strong>Andreotta, M.</strong>, Lloyd, R., Whiting, D., Alford, M., & Morris, T. (2023). Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication. <em>Aging and Health Research</em>, <em>3</em>(1).<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/6kst8/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-box" role='img' aria-label='OSF'></i>
+        OSF
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://www.sciencedirect.com/science/article/pii/S2667032123000100" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-text" role='img' aria-label='Publication'></i>
+        Publication
+    </a></li></ul>
+```
+
 ### 2022{#published-2022}
 
 ```{=html}
@@ -20,10 +32,6 @@ keep-md: true
         <i class="bi bi-box" role='img' aria-label='OSF'></i>
         OSF
     </a> <a class="btn btn-outline-dark btn-sm", href="https://link.springer.com/article/10.1007/s10584-022-03437-5" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-text" role='img' aria-label='Publication'></i>
-        Publication
-    </a></li>
-<li class='list-group-item'><strong>Andreotta, M.</strong>, Atee, M., Morris, T., & Alford, M. (2022). Comments on Westera et al. (2022), "Support for people with dementia experiencing severe responsive behaviours: Unpacking the disconnect between policy and practice". <em>Australasian Journal on Ageing</em>, 1-2.<br><a class="btn btn-outline-dark btn-sm", href="https://onlinelibrary.wiley.com/doi/10.1111/ajag.13121" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-text" role='img' aria-label='Publication'></i>
         Publication
     </a></li>
@@ -79,11 +87,23 @@ keep-md: true
 
 ## Working Papers
 
-### 2022{#not-published-2022}
+### 2023{#not-published-2023}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Jellison, S., <strong>Andreotta, M.</strong>, Cooper, C., Paris, P., Nugroho, R., & Vassar, M. (2022). The use of Twitter in the Post Publication Peer Review process.<br></li>
-<li class='list-group-item'>Mortimer, M., Rossen, I., <strong>Andreotta, M.</strong>, Dunlop, P., & Hurlstone, M. J. (2022). Accepters, Fence sitters, or rejecters revisited: Converging evidence for different moral profiles of vaccination attitudes.<br></li></ul>
+<ul class='list-group list-group-flush'><li class='list-group-item'>Jellison, S., <strong>Andreotta, M.</strong>, Cooper, C., Paris, P., Nugroho, R., & Vassar, M. (2023). The use of Twitter in the Post Publication Peer Review process.<br></li>
+<li class='list-group-item'>Mortimer, M., Rossen, I., <strong>Andreotta, M.</strong>, Dunlop, P., & Hurlstone, M. J. (2023). Accepters, Fence sitters, or rejecters revisited: Converging evidence for different moral profiles of vaccination attitudes.<br></li></ul>
+```
+
+
+
+## Letters to the Editor
+
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Andreotta, M.</strong>, Atee, M., Morris, T., & Alford, M. (2022). Comments on Westera et al. (2022), "Support for people with dementia experiencing severe responsive behaviours: Unpacking the disconnect between policy and practice". <em>Australasian Journal on Ageing</em>, 1-2.<br><a class="btn btn-outline-dark btn-sm", href="https://onlinelibrary.wiley.com/doi/10.1111/ajag.13121" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-text" role='img' aria-label='Letter'></i>
+        Letter
+    </a></li></ul>
 ```
 
 

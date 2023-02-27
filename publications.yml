@@ -17,6 +17,26 @@ thesis:
     issue:
     pages:
 
+royal_commission:
+    title: "Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication"
+    authors:
+      - Atee, M.
+      - me
+      - Lloyd, R.
+      - Whiting, D.
+      - Alford, M.
+      - Morris, T.
+    year: 2023
+    preprint:
+    published_url: https://www.sciencedirect.com/science/article/pii/S2667032123000100
+    github:
+    osf: https://osf.io/6kst8/
+    outlet: Aging and Health Research
+    volume: 3
+    issue: 1
+    pages:
+
+
 segments:
     title: "Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication"
     authors:
@@ -37,7 +57,7 @@ segments:
     pages:
 
 
-dementia_letter:
+dementia_service:
     title: "Comments on Westera et al. (2022), \"Support for people with dementia experiencing severe responsive behaviours: Unpacking the disconnect between policy and practice\""
     authors:
       - me
@@ -53,6 +73,7 @@ dementia_letter:
     volume:
     issue:
     pages: 1-2
+    output: letter
 
 
 dementia_chaplain:

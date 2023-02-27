@@ -73,6 +73,15 @@ alford:
   affiliation: HammondCare
   website: https://au.linkedin.com/in/marie-alford-a475641a
   expertise: clinical research
+whiting:
+  name: Daniel Whiting
+  affiliation: HammondCare
+  website: https://au.linkedin.com/in/daniel-whiting-397879109
+  expertise: clinical research
+lloyd:
+  name: Rebecca Lloyd
+  affiliation: HammondCare
+  expertise: clinical research
 calder:
   name: Steve Calder
   affiliation: HammondCare
