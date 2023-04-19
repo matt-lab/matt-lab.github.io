@@ -13,7 +13,7 @@ keep-md: true
 ### 2023{#published-2023}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Atee, M., <strong>Andreotta, M.</strong>, Lloyd, R., Whiting, D., Alford, M., & Morris, T. (2023). Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication. <em>Aging and Health Research</em>, <em>3</em>(1).<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/6kst8/" target="_blank" rel="noopener noreferrer">
+<ul class='list-group list-group-flush'><li class='list-group-item'>Atee, M., <strong>Andreotta, M.</strong>, Lloyd, R., Whiting, D., Alford, M., & Morris, T. (2023). Does pain matter in the Australian Royal Commission into Aged Care Quality and Safety? A text mining study. <em>Aging and Health Research</em>, <em>3</em>(1).<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/6kst8/" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-box" role='img' aria-label='OSF'></i>
         OSF
     </a> <a class="btn btn-outline-dark btn-sm", href="https://www.sciencedirect.com/science/article/pii/S2667032123000100" target="_blank" rel="noopener noreferrer">

@@ -31,13 +31,13 @@ In my scientific pursuits, I have had the pleasure of working with researchers f
 ### Applied mathematics{#expertise-applied-mathematics}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'><a href="http://www.per.marine.csiro.au/staff/Fabio.Boschetti/" target="_blank">Fabio Boschetti</a>, Oceans & Atmosphere, Commonwealth Scientific and Industrial Research Organisation.</li></ul>
+<ul class='list-group list-group-flush'><li class='list-group-item'><a href="http://www.per.marine.csiro.au/staff/Fabio.Boschetti/" target="_blank">Fabio Boschetti</a>, Environment, Commonwealth Scientific and Industrial Research Organisation.</li></ul>
 ```
 
 ### Economics{#expertise-economics}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'><a href="https://people.csiro.au/V/I/Ingrid-Vanputten" target="_blank">Ingrid van Putten</a>, Oceans & Atmosphere, Commonwealth Scientific and Industrial Research Organisation.</li></ul>
+<ul class='list-group list-group-flush'><li class='list-group-item'><a href="https://people.csiro.au/V/I/Ingrid-Vanputten" target="_blank">Ingrid van Putten</a>, Environment, Commonwealth Scientific and Industrial Research Organisation.</li></ul>
 ```
 
 ### Environmental science{#expertise-environmental-science}
@@ -60,6 +60,8 @@ In my scientific pursuits, I have had the pleasure of working with researchers f
 <ul class='list-group list-group-flush'><li class='list-group-item'><a href="https://au.linkedin.com/in/mustafa-atee-phd-a416816b" target="_blank">Mustafa Atee</a>, HammondCare.</li>
 <li class='list-group-item'><a href="https://au.linkedin.com/in/tom-morris-8727828b" target="_blank">Thomas Morris</a>, HammondCare.</li>
 <li class='list-group-item'><a href="https://au.linkedin.com/in/marie-alford-a475641a" target="_blank">Marie Alford</a>, HammondCare.</li>
+<li class='list-group-item'><a href="https://au.linkedin.com/in/daniel-whiting-397879109" target="_blank">Daniel Whiting</a>, HammondCare.</li>
+<li class='list-group-item'>Rebecca Lloyd, HammondCare.</li>
 <li class='list-group-item'>Steve Calder, HammondCare.</li></ul>
 ```
 
