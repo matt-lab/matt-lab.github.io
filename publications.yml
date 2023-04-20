@@ -35,7 +35,7 @@ royal_commission:
     volume: 3
     issue: 1
     pages:
-
+    highlight: <p>In early 2022, I was a researcher for HammondCare&mdash;a not-for-profit organisation which delivers&nbsp;aged care and health services. Using automated text analysis, we explored the concept of pain&nbsp;in the Australian Royal Commission into Aged Care Quality and Safety. We found that pain characterised experience in residential aged care homes but was entirely omitted from the commission&#39;s recommendations.</p><p>Our research demonstrated that automated text analyses can identify where evidence and recommendations diverge.&nbsp;Without specific recommendations for pain management, changes to polices, programs and funding schemes, and the clinical practice may miss opportunities to address common experiences of pain. As a result, older adults living in the community and residential aged care homes may remain vulnerable.</p>
 
 segments:
     title: "Evidence for three distinct climate change audience segments with varying belief updating tendencies: Implications for climate change communication"
@@ -55,7 +55,7 @@ segments:
     volume: 174
     issue: 3
     pages:
-
+    highlight: <p>When psychologists measure how people see climate change, they often use survey scales of concepts they think are relevant. This is called a &#39;top-down&#39; approach. In this study, we used a &#39;bottom-up&#39; approach, where we measured climate change views based on reactions to social media posts. We found three segments of people:</p><ul><li><strong>Acceptors</strong>. People who think climate change is mainly caused by humans and seek climate change action.</li><li><strong>Sceptics</strong>. People who think climate change is either not happening, or caused by natural fluctuations unrelated to humans.</li><li><strong>Fencesitters</strong>. People who do not lean either way.</li></ul><p>We showed that each segment has their own unique psychological characteristics, which are related to their openness to climate science information. These findings suggest that the effectiveness of communication varies for each individual, and a &#39;one-size-fits-all&#39; approach is not optimal. Using our findings, we provided some practical recommendations for tailoring climate change communication to each segment.</p>
 
 dementia_service:
     title: "Comments on Westera et al. (2022), \"Support for people with dementia experiencing severe responsive behaviours: Unpacking the disconnect between policy and practice\""
@@ -85,13 +85,14 @@ dementia_chaplain:
       - Atee, M.
     year: 2022
     preprint:
-    published_url: https://www.tandfonline.com/doi/pdf/10.1080/08854726.2022.2091837
+    published_url: https://www.tandfonline.com/doi/full/10.1080/08854726.2022.2091837
     github:
     osf:
     outlet: Journal of Health Care Chaplaincy
     volume:
     issue:
     pages: 1-16
+    highlight: <p>At HammondCare,&nbsp;an organisation that delivers aged, residential, and community care for older adults, it was sometimes difficult to measure what services were being provided. For example, pastoral care is a broad service that involves religious, spiritual, emotional, and social support for people during difficult times. In this research, we developed and tested a digital tool to measure pastoral care, including who was receiving pastoral care, what form of care was provided, and the time taken to provide the care.</p><p>After a one-year trial, we found our digital tool was well-used and well-received. Those providing pastoral care felt it was more feasible, favourable, and easier to use than paper-based recording. Our study demonstrates how broad services may be quantified to record, monitor, and improve caregiving to vulnerable people.</p>
 
 misinformation_2021:
     title: "Corrections of political misinformation: No evidence for an effect of partisan worldview in a U.S. convenience sample"
@@ -108,7 +109,7 @@ misinformation_2021:
     volume: 376
     issue: 1882
     pages: 1-8
-
+    highlight: <p>Misinformation often has a continuing effect on people&#39;s reasoning, even when they know the misinformation has been corrected. Some researchers that some people may continue to rely on misinformation because it is consistent with their political views of the world. To test this, we investigated whether Americans&#39; political beliefs affected reliance on false information even after being corrected. While political beliefs influenced people&#39;s initial response, the correction was equally effective for both Democrats and Republicans. However, Republicans did show stronger emotional responses to information that conflicted with their beliefs.&nbsp;</p><p>Our results suggest retracting false information is effective, even in polarising political contexts. Though, communicators should be weary of expressions of anger when retracting misinformation consistent with the views of Republicans.</p>
 
 twitter_2019:
     title: "Analyzing social media data: A mixed-methods framework combining computational and qualitative text analysis"
@@ -129,6 +130,7 @@ twitter_2019:
     volume: 51
     issue: 4
     pages: 1766-1781
+    highlight: <p>For researchers interested in human behaviour, the Internet offers massive and varied text data without the need for intrusive or intensive data collection procedures. Often, data scientists build language models to understand the &#39;big data&#39; of the Internet. However, language models do not always produce sensical results, as they rely on the statistical relationships of text, rather than the psychological context and meaning of words. Qualitative research excels in mapping context to behaviour but is cumbersome or impossible for large data sets.<p><p>In this study, we proposed a four-step framework for blending data science and qualitative research to bolster each approaches strengths and mitigate their weaknesses. We demonstrate the success of this approach with an application to climate change commentary on social media. Our paper provides a powerful tool for researchers interested in understanding Internet data.</p>
 
 marine_2017:
     title: "Mental models, communication, and engagement in marine projects"
@@ -144,6 +146,7 @@ marine_2017:
     volume: 74
     issue: 7
     pages: 2034-2039
+    highlight: <p>In a &#39;perfect&#39; world where people only care for truth, argumentation would be irrelevant because truth would eventually be discovered. However, in reality, argumentation is important because a unique truth rarely exists, and seeking knowledge can have different purposes. Marine scientists are expected to contribute to decision-making not only by providing scientific evidence but also effective communication and persuasion.</p><p>We reviewed how humans organise knowledge and beliefs, and how they affect decision-making and reception of information. By using the theory of mental models and the Causal Layered Analysis, the structure underlying the organisation of scientific and non-scientific knowledge can be reduced to a common framework.</p><p>Our review provides tools that marine scientists can use when communicating, to best understand their audience and their knowledge.</p>
 
 working_academic:
     title: "The use of Twitter in the Post Publication Peer Review process"

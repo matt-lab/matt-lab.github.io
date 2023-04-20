@@ -3,7 +3,9 @@ title: "Publications"
 echo: false
 jupyter: python3
 section-divs: false
-keep-md: true
+format: 
+  html: 
+    theme: callout_highlights.scss
 ---
 
 ```{python}
@@ -24,6 +26,23 @@ def button(url, str, icon):
         <i class="{icon_base} {icon}" role='img' aria-label='{str}'></i>
         {str}
     </a>"""
+def callout_highlight(highlight, id):
+    return [
+        f'''
+        <!-- Create a button that toggles the visibility of content -->
+        <button class="btn btn-primary btn-sm shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{id}" aria-expanded="false" aria-controls="collapse-{id}" aria-expanded="false" aria-label="Toggle callout">
+            <i class="bi bi-pen-fill" role="img"></i>
+            Research Highlights
+        </button>
+        ''',
+        f'''
+        <!-- Add the content that will be hidden/shown -->
+        <div class="collapse" id="collapse-{id}">
+                <div class="card card-body bg-light small">
+                    {highlight}
+            </div>
+        </div>
+        ''']
 yaml_data = yaml.safe_load(open("publications.yml"))
 pub_strs = {"pubs": {}, "wps": {}, "letters": {}, "thesis": {}}
 for _, data in yaml_data.items():
@@ -50,6 +69,7 @@ for _, data in yaml_data.items():
     issue = data.get("issue")
     pages = data.get("pages")
     output = data.get("output")
+    highlight = data.get("highlight")
 
     in_press = False
     if(isinstance(year_str, str)):
@@ -90,8 +110,12 @@ for _, data in yaml_data.items():
             pub_strs["pubs"][year_str] = []
         if not in_press:
             buttons.append(button(pub_url, "Publication", "bi-file-text"))
+        if highlight is not None:
+            highlight_str = [callout_highlight(highlight, _)[0], "<br> " + callout_highlight(highlight, _)[1]]
+        else:
+            highlight_str = ["", ""]
         pub_strs["pubs"][year_str].append(
-            "<li class='list-group-item'>" + pub_str + "<br>" + " ".join(buttons) + "</li>"
+            "<li class='list-group-item'>" + pub_str + "<br>" + highlight_str[0] + " ".join(buttons) + highlight_str[1] +"</li>"
         )
     elif thesis:
         if year_str not in pub_strs["thesis"]:
@@ -100,8 +124,6 @@ for _, data in yaml_data.items():
         pub_strs["thesis"][year_str].append(
             "<li class='list-group-item'>" + pub_str + "<br>" + " ".join(buttons) + "</li>"
         )
-
-
 ```
 
 ## Peer-Reviewed Publications
