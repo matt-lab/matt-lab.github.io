@@ -24,13 +24,10 @@ website:
     right:
       - href: assets/cv/cv.pdf
         text: Academic CV
-      - icon: rss
-        href: index.xml
 format:
   html:
     theme:
       light: flatly
-      dark: slate
     css: styles.css
     toc: true
     link-external-newwindow: true
