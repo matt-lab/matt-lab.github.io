@@ -1,0 +1,93 @@
+---
+title: 'First impressions of Observable JS: A language for interactive data visualisations'
+description: |
+    My experiences with Observable JS and an introductory course run by ObservableHQ.
+date: "2023-04-21"
+categories: [data visualisation, observable, training]
+from: markdown+emoji
+format:
+  html:
+    toc: false
+    echo: false
+    keep-hidden: true
+    code-tools: true
+image: "thumbnail.svg"
+---
+
+Visualising text data is difficult and interactive visualisations might help.
+
+When analysing text, often I want to visualise the aggregate characteristic of a document or corpus.
+For example, in a sentiment analysis, I might want to showing the average number of words associated with each emotion in each document.
+This reduces entire documents to a single point on a visualisation, which can allow readers to intuitively grasp the variation of emotions between documents.
+But, this form of visualisation does not give readers an intuitive sense of which part of a document contains emotional content, or even what word is related to which emotion.
+The most curious of readers might read up on the details of the sentiment analysis, but many won't, leaving readers untrusting or uncertain of the analysis and results.
+
+I think interactive data visualisations can help here.
+Broadly, interactive data visualisations are graphical representations of data which respond to user input, such as a click of a mouse or numbers typed into a keyboard.
+Interaction can be used to clarify specific data values or hand over control to readers.
+For example, the graphic below represents the number of Australians for each year of age, as per the most recent national census.
+Deeper reds indicate more Aussies are of a certain age.
+We can see quickly that there is higher number of Australians aged 48 to 50, compared the Australians in their mid-40s and early-50s.
+More interested users can hover their house over a cell to see the exact number of Australians of any age, known as a tooltip.
+With minimal space, we can represented both proportional numbers (via colours) and absolute numbers (via tooltips).
+
+```{r}
+#| echo: false
+#| warning: false
+#| error: false
+
+# Load libraries
+library(readr)
+library(tidyr)
+library(dplyr)
+# Load 2021 Australian census data on age and gender
+census_data <- read_csv(
+  file = "https://raw.githubusercontent.com/matt-lab/2021_census_stats/main/data/2021_sex-and-age.csv",
+  col_names = c('age', 'male', 'female', 'total'),
+  col_select = c('age', 'total'),
+  col_types = list(col_integer()),
+  skip = 1,
+  show_col_types = FALSE)
+ojs_define(census_data = census_data)
+```
+
+```{ojs}
+// Transpose data into convenient form for Plot
+census_data_transposed = transpose(census_data)
+import {addTooltips} from "@mkfreeman/plot-tooltip"
+
+addTooltips(
+  Plot.barX(census_data_transposed, {
+    x: "age",
+    interval: 1,
+    fill: "total",
+    inset: 0, 
+    title: (d) => d.total + " Australians" + "\n are " + d.age + " years old"
+  }).plot({
+    color: {
+      type: "linear",
+      scheme: "reds", 
+      legend: false
+    },
+    x: {label: "Age (years)"},
+    style: {paddingTop: 50}
+  })
+)
+```
+
+The graphic above was made using the language of [Observable JS](https://quarto.org/docs/interactive/ojs/).
+The creators of the language run a website called [ObservableHQ](https://observablehq.com/), where users can create notebooks of all kinds of interesting visualisations.
+I took my first steps into Observable JS with [a data visualisation course](https://observablehq.com/@observablehq/datavizcourse) run by [Robert Kosara](https://observablehq.com/@rkosara).
+I thought it was a useful primer for general data visualisation, Observable JS, and ObservableHQ.
+
+
+As part of the course, I explored [pizza orders](https://observablehq.com/@observablehq/pizza-paradise-data).
+I found Veggie pizza was the seasonal underdog.
+In 2022, Californians purchases of <span style="color:#40B0A6"><strong>Veggie pizza</strong></span> was the most volatile <span style="color:#D3D3D3"><strong>of all pizzas</strong></span> across the year, with peaks on <span style="color:#E1BE6A"><strong>public holidays</strong></span>.
+
+<iframe width="100%" height="476" frameborder="0"
+  src="https://observablehq.com/embed/21f984807f478fbd?cells=veggieSpending"></iframe>
+
+ObservableHQ notebooks are really neat. But, if you prefer `R`, check out how to make [interactive documents by combining Observable JS and R](https://quarto.org/docs/interactive/ojs/).
+
+I'll definitely be using Observable JS in the future!
