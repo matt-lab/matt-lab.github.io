@@ -15,7 +15,7 @@ A selection of my conference presentations, seminars, talks to research labs, tu
 ### Conferences{#setting_conferences}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Andreotta, M.</strong>, Nugroho, R., Hurlstone, M. J., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). <em>Analysing social media: a mixed-methods framework for combining computational and text analysis</em> for the Australasian Mathematical Psychology Conference (AMPC).<br><a class="btn btn-outline-dark btn-sm", href="assets/presentation/ampc2019.pdf" target="_blank" rel="noopener noreferrer">
+<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Andreotta, M.</strong>, Nugroho, R., Hurlstone, M. J., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). <em>Analysing social media: A mixed-methods framework for combining computational and text analysis</em> for the Australasian Mathematical Psychology Conference (AMPC).<br><a class="btn btn-outline-dark btn-sm", href="assets/presentation/ampc2019.pdf" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='PDF'></i>
         PDF
     </a></li></ul>
@@ -36,7 +36,7 @@ A selection of my conference presentations, seminars, talks to research labs, tu
 ### Research labs{#setting_research-labs}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Andreotta, M.</strong>, Nugroho, R., Hurlstone, M. J., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). <em>Analysing social media: a mixed-methods framework for combining computational and text analysis</em> for Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO).<br><a class="btn btn-outline-dark btn-sm", href="assets/presentation/data2019.pdf" target="_blank" rel="noopener noreferrer">
+<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Andreotta, M.</strong>, Nugroho, R., Hurlstone, M. J., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). <em>Analysing social media: A mixed-methods framework for combining computational and text analysis</em> for Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO).<br><a class="btn btn-outline-dark btn-sm", href="assets/presentation/data2019.pdf" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='PDF'></i>
         PDF
     </a> <a class="btn btn-outline-dark btn-sm", href="assets/presentation/data2019.pptx" target="_blank" rel="noopener noreferrer">
