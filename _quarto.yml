@@ -10,9 +10,6 @@ website:
     image: "/assets/images/network.jpg"
   open-graph: true
   description: "Matthew Andreotta | Postdoctoral Fellow | CSIRO"
-  google-analytics:
-    tracking-id: "G-36XVQ86SSB"
-    anonymize-ip: true
   navbar:
     left:
       - href: index.qmd
