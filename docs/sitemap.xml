@@ -2,74 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://matt-lab.github.io/about.html</loc>
-    <lastmod>2023-04-20T09:24:18.554Z</lastmod>
+    <lastmod>2023-05-02T01:39:45.498Z</lastmod>
   </url>
   <url>
     <loc>https://matt-lab.github.io/collaborators.html</loc>
-    <lastmod>2023-04-20T09:24:23.551Z</lastmod>
+    <lastmod>2023-05-02T01:39:51.466Z</lastmod>
   </url>
   <url>
     <loc>https://matt-lab.github.io/index.html</loc>
-    <lastmod>2023-04-21T09:28:07.993Z</lastmod>
+    <lastmod>2023-05-02T01:39:52.439Z</lastmod>
   </url>
   <url>
     <loc>https://matt-lab.github.io/posts/2022-10-04_new-website/index.html</loc>
-    <lastmod>2023-04-20T09:24:25.587Z</lastmod>
+    <lastmod>2023-05-02T01:39:53.892Z</lastmod>
   </url>
   <url>
     <loc>https://matt-lab.github.io/posts/2022-10-06_new-article/index.html</loc>
-    <lastmod>2023-04-20T09:24:26.456Z</lastmod>
+    <lastmod>2023-05-02T01:39:55.271Z</lastmod>
   </url>
   <url>
     <loc>https://matt-lab.github.io/posts/2023-02-03_census/index.html</loc>
-    <lastmod>2023-04-20T09:24:27.263Z</lastmod>
+    <lastmod>2023-05-02T01:39:56.350Z</lastmod>
   </url>
   <url>
     <loc>https://matt-lab.github.io/posts/2023-02-27_new-article/index.html</loc>
-    <lastmod>2023-04-20T09:24:28.086Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matt-lab.github.io/presentations.html</loc>
-    <lastmod>2023-04-21T09:32:33.136Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matt-lab.github.io/publications.html</loc>
-    <lastmod>2023-05-02T01:24:14.448Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matt-lab.github.io/posts/test/index.html</loc>
-    <lastmod>2023-04-21T04:04:24.918Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matt-lab.github.io/posts/2023-04-21_observablehq/index.html</loc>
-    <lastmod>2023-04-21T03:35:39.400Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matt-lab.github.io/posts/20230421observablehq/index.html</loc>
-    <lastmod>2023-04-21T03:37:08.551Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matt-lab.github.io/test.html</loc>
-    <lastmod>2023-04-21T03:40:13.315Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matt-lab.github.io/2023-test.html</loc>
-    <lastmod>2023-04-21T03:40:42.513Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matt-lab.github.io/1-test/2023-test.html</loc>
-    <lastmod>2023-04-21T03:41:41.511Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matt-lab.github.io/test/index.html</loc>
-    <lastmod>2023-04-21T03:45:19.263Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matt-lab.github.io/posts/1-observablehq/index.html</loc>
-    <lastmod>2023-04-21T03:58:05.992Z</lastmod>
+    <lastmod>2023-05-02T01:39:57.229Z</lastmod>
   </url>
   <url>
     <loc>https://matt-lab.github.io/posts/observablehq/index.html</loc>
-    <lastmod>2023-04-21T09:28:06.903Z</lastmod>
+    <lastmod>2023-05-02T01:39:58.969Z</lastmod>
+  </url>
+  <url>
+    <loc>https://matt-lab.github.io/presentations.html</loc>
+    <lastmod>2023-05-02T01:40:04.454Z</lastmod>
+  </url>
+  <url>
+    <loc>https://matt-lab.github.io/publications.html</loc>
+    <lastmod>2023-05-02T01:40:09.585Z</lastmod>
   </url>
 </urlset>

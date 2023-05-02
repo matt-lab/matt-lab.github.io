@@ -27,8 +27,8 @@ website:
 format:
   html:
     theme:
-      light: flatly
-    css: styles.css
+      - flatly
+      - styles.scss
     toc: true
     link-external-newwindow: true
 
