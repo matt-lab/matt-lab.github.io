@@ -13,7 +13,6 @@ website:
   google-analytics:
     tracking-id: "G-36XVQ86SSB"
     anonymize-ip: true
-    storage: none
   navbar:
     left:
       - href: index.qmd
