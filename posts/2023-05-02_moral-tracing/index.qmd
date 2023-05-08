@@ -14,7 +14,7 @@ As part of my postdoctoral research at [CSIRO](https://www.csiro.au/en/about), I
 
 👟 The first steps of this project will review how marine resources become entwined with moral judgements.
 
-## Why study public views of marine resources
+## Why study public views of marine resources?
 
 Marine resources and space are a heated area of conservation, economic growth, livelihood, and employment.
 Industry, government, academia, and the public (and different subgroups amongst them) will inevitably hold different expectations, aspirations, and concerns about how society should use marine resources.
@@ -73,7 +73,7 @@ If you have the same hope, please consider signing [this letter by the Coalition
 
 [^4]: The changes and impacts are described in more detail in an [April letter by the Coalition for Independent Technology Research](https://independenttechresearch.org/letter-twitters-new-api-plans-will-devastate-public-interest-research/).
 
-## How privacy will be protected
+## How privacy will be protected?
 
 On many social media platforms, such as Twitter, Australians are protected by the Privacy Act 1988 (Cth) (Privacy Act)[^5].
 This project will handle information in accordance with the Privacy Act and the National Health & Medical Research Council (NH&MRC) National Statement on Ethical Conduct in Human Research (2007, updated 2018), or as otherwise required by law.
