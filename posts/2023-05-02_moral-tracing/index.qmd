@@ -1,0 +1,97 @@
+---
+title: 'New project: Moralisation of Marine Resources'
+description: |
+    I'll be leading a project on long-term trends of moral discourse of marine resources.
+date: "2023-05-02"
+categories: [research, project, marine, public perceptions, moral]
+from: markdown+emoji
+---
+
+📣 I'm excited to announce a new project 📣
+
+As part of my postdoctoral research at [CSIRO](https://www.csiro.au/en/about), I'll be exploring public views of marine resources.
+
+👟 The first steps of this project will review how marine resources become entwined with moral judgements.
+
+## Why study public views of marine resources
+
+Marine resources and space are a heated area of conservation, economic growth, livelihood, and employment.
+Industry, government, academia, and the public (and different subgroups amongst them) will inevitably hold different expectations, aspirations, and concerns about how society should use marine resources.
+If not properly managed, concerns and unfulfilled aspirations may erode public acceptance of industry activity and government policy.
+
+Concerns, fears, and expectations are social constructs.
+They arise within groups when people share knowledge and opinions, drawing on past experiences, analogies, aspirations about the future, perceptions of costs and benefits and power relations, among other drivers.
+At times, these fears and expectations feature in public discourse, such as traditional media, social media, and academia, where they develop into narratives defining a problem in novel or pre-existing terms.
+Some of the most divisive narratives are moral.
+That is, discussions can become embedded with core beliefs and convictions concerning what is right and wrong.
+This transforms discussions of a specific marine resource to discussions of society and identity.
+As a result, people who hold moralised perspectives tend to be harder to persuade[^1] and more hostile to those with opposing views[^2].
+
+[^1]: Rabia I. Kodapanakkal and colleagues have [conducted experiments on the impact of moral and non-moral language on attitudes](https://doi.org/10.1177/09567976211040803).
+[^2]: Kristin N. Garrett and Alexa Bankert explored how [moral conviction heightens tensions between American partisans](https://doi.org/10.1017/S000712341700059X). 
+
+Social media is particularly fertile ground for moralisation.
+Moralised content is more likely to receive comments, and these comments tend to be moralised[^3].
+This effect, known as a moral contagion, suggests moralised discourse is likely to proliferate through social media networks.
+But we know little about how moralised discourse evolves over long time periods and what events might trigger lasting changes in the way the public moralise marine issues.
+For this reason, I'll be exploring how and which marine resources are moralised.
+If this sounds interesting to you, please get in touch.
+
+[^3]: This is explored in work by [William Brady and colleagues](https://doi.org/10.1073/pnas.1618923114) and [Curtis Puryear's team](https://psyarxiv.com/t9dre/).
+
+## How do people moralise marine resources?
+
+[Moral Foundations Theory](https://moralfoundations.org/) suggests there are five ways in which an issue may be moralised.
+The basis for moral concerns are 'foundational', in the sense that they are recurrent themes that transcend issues and societies.
+The foundation of **care** reflects virtues of kindness and gentleness, featured in environmental concerns about harming 'mother earth', animal life, and fellow humans.
+The foundation of **fairness** reflects virtues of justice, rights, and reciprocity, featured in environmental concerns about justice for future generations who might carry the cost of today's generation.
+The foundation of **loyalty** reflects virtues of patriotism and self-sacrifice for one's in-group, featured in concerns that national economic performance may be weakened to sustain the environment.
+The foundation of **respect** reflects virtues of leadership and followership, featured in concerns about traditions surrounding natural resources.
+The foundation of **sanctity** reflects an eclectic range of virtues of cleanliness, holiness, and self-control, featured in environmental concerns for pollution and religious concerns for the environment.
+
+:::{.column-body}
+![An illustration of Moral Foundations Theory created by [Aprilia Muktirina](https://www.behance.net/heyapriliaa/projects) [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)](https://upload.wikimedia.org/wikipedia/commons/b/b9/An_illustration_of_Moral_foundations_Theory_created_by_Aprilia_Muktirina.jpg)
+:::
+
+As part of this research, I'll be examining moral content at different granular levels using a [natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) algorithm.
+At the broadest level, I'll explore whether discussions tap into any moral concern.
+At the most granular level, I'll explore what specific moral foundations are involved in discussions.
+
+## What data will be used?
+
+I'll be using data from Twitter.
+If you have ever posted a tweet about a marine resource, your data might be used in this study.
+For now, I will be using an [archive of Australian tweets curated by CSIRO](https://www.csiro.au/en/research/technology-space/ai/emergency-situation-awareness).
+In the future, I might use Twitter's [application programming interface (API)](https://en.wikipedia.org/wiki/API) to access tweets from across the globe.
+
+Twitter once offered researchers liberal access to data for free.
+Now, Twitter's API is prohibitively expensive, costing upwards of $42,000 per month for most research purposes.
+This change has reduced Twitter's transparency and accountability, obstructing research on democracy, public health, and public goods[^4].
+I hope Twitter will reconsider their position.
+If you have the same hope, please consider signing [this letter by the Coalition for Independent Technology Research](https://independenttechresearch.org/letter-twitter-api-access-threatens-public-interest-research/) to call on Twitter and policymakers for reliable access to data.
+
+[^4]: The changes and impacts are described in more detail in an [April letter by the Coalition for Independent Technology Research](https://independenttechresearch.org/letter-twitters-new-api-plans-will-devastate-public-interest-research/).
+
+## How privacy will be protected
+
+On many social media platforms, such as Twitter, Australians are protected by the Privacy Act 1988 (Cth) (Privacy Act)[^5].
+This project will handle information in accordance with the Privacy Act and the National Health & Medical Research Council (NH&MRC) National Statement on Ethical Conduct in Human Research (2007, updated 2018), or as otherwise required by law.
+
+For this project and related scientific research, personal information included in Twitter data, such as the content of tweets and user names, will be collected.
+Although most Twitter data will not contain sensitive information, some information collected may be sensitive, such as text indicating ethnicity, images of people, or audio of voices.
+Disclosing this information to other parties is within Twitter's purview, as per their terms and conditions for users.
+Consequently, this information will be collected without participant consent to this specific project.
+
+Tweets from public figures and organisations may be shared verbatim, such as quoted in publications (e.g., peer-reviewed publications in academic journals).
+For other users, results from the project will be de-identified and/or aggregated.
+While CSIRO will make all attempts to ensure that these users cannot be reidentified from the information contained within the publications, this risk can never be completely removed. 
+It is possible that a user may be able to be reidentified within the publications due to the tweets being available in a public forum.
+
+For information about how Twitter generally handle personal information, please refer to [the requirements for accessing Twitter data](https://developer.twitter.com/en/developer-terms/agreement-and-policy).
+If you use Twitter and would like to avoid your Twitter data being used for research, consider deleting tweets or activating a protected status. 
+
+For further information on how CSIRO handles personal information and CSIRO's access, correction, and complaints process please read the privacy policy available on [CSIRO's website](https://www.csiro.au/en/about/policies/privacy) or by contacting the privacy team at [privacy@csiro.au](mailto:privacy@csiro.au). 
+
+This proposed research has been approved by CSIRO's Human Research Ethics Committee (reference number: 180/22).
+
+[^5]: For more information on Australian's privacy rights on social media, please read [this webpage](https://www.oaic.gov.au/privacy/your-privacy-rights/social-media-and-online-privacy/social-media) by the Australian Government's Office of the Australian Information Commissioner.
