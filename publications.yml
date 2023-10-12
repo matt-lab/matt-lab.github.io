@@ -187,7 +187,7 @@ working_vaccine:
     pages:
 
 working_llm-systematic-reviews:
-  title: "Human-AI Collaboration to Identify Literature for Evidence Synthesis"
+  title: "Human-AI Collaboration to identify literature for evidence synthesis"
   authors:
     - Sillias, S.
     - Paris, T.
