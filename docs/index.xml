@@ -14,7 +14,7 @@
 <title>Matthew Andreotta</title>
 <link>https://matt-lab.github.io/index.html</link>
 </image>
-<generator>quarto-1.0.38</generator>
+<generator>quarto-1.3.433</generator>
 <lastBuildDate>Mon, 01 May 2023 16:00:00 GMT</lastBuildDate>
 <item>
   <title>New project: Moralisation of Marine Resources</title>
@@ -107,10 +107,18 @@ Resources.”</span> May 2, 2023. <a href="https://matt-lab.github.io/posts/2023
 <p>When analysing text, often I want to visualise the aggregate characteristic of a document or corpus. For example, in a sentiment analysis, I might want to showing the average number of words associated with each emotion in each document. This reduces entire documents to a single point on a visualisation, which can allow readers to intuitively grasp the variation of emotions between documents. But, this form of visualisation does not give readers an intuitive sense of which part of a document contains emotional content, or even what word is related to which emotion. The most curious of readers might read up on the details of the sentiment analysis, but many won’t, leaving readers untrusting or uncertain of the analysis and results.</p>
 <p>I think interactive data visualisations can help here. Broadly, interactive data visualisations are graphical representations of data which respond to user input, such as a click of a mouse or numbers typed into a keyboard. Interaction can be used to clarify specific data values or hand over control to readers. For example, the graphic below represents the number of Australians for each year of age, as per the most recent national census. Deeper reds indicate more Aussies are of a certain age. We can see quickly that there is higher number of Australians aged 48 to 50, compared the Australians in their mid-40s and early-50s. More interested users can hover their house over a cell to see the exact number of Australians of any age, known as a tooltip. With minimal space, we can represented both proportional numbers (via colours) and absolute numbers (via tooltips).</p>
 <div class="cell" data-warning.hidden="true" data-message.hidden="true">
-<div class="sourceCode cell-code hidden" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;"># Load libraries</span></span>
-<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(readr)</span>
-<span id="cb1-3"><span class="fu" style="color: #4758AB;">library</span>(tidyr)</span>
-<span id="cb1-4"><span class="fu" style="color: #4758AB;">library</span>(dplyr)</span></code></pre></div>
+<div class="sourceCode cell-code hidden" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Load libraries</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(readr)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tidyr)</span>
+<span id="cb1-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(dplyr)</span></code></pre></div>
 <div class="cell-output cell-output-stderr hidden">
 <pre><code>
 Attaching package: 'dplyr'</code></pre>
@@ -125,35 +133,219 @@ Attaching package: 'dplyr'</code></pre>
 
     intersect, setdiff, setequal, union</code></pre>
 </div>
-<div class="sourceCode cell-code hidden" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="co" style="color: #5E5E5E;"># Load 2021 Australian census data on age and gender</span></span>
-<span id="cb5-2">census_data <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">read_csv</span>(</span>
-<span id="cb5-3">  <span class="at" style="color: #657422;">file =</span> <span class="st" style="color: #20794D;">"https://raw.githubusercontent.com/matt-lab/2021_census_stats/main/data/2021_sex-and-age.csv"</span>,</span>
-<span id="cb5-4">  <span class="at" style="color: #657422;">col_names =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">'age'</span>, <span class="st" style="color: #20794D;">'male'</span>, <span class="st" style="color: #20794D;">'female'</span>, <span class="st" style="color: #20794D;">'total'</span>),</span>
-<span id="cb5-5">  <span class="at" style="color: #657422;">col_select =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">'age'</span>, <span class="st" style="color: #20794D;">'total'</span>),</span>
-<span id="cb5-6">  <span class="at" style="color: #657422;">col_types =</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="fu" style="color: #4758AB;">col_integer</span>()),</span>
-<span id="cb5-7">  <span class="at" style="color: #657422;">skip =</span> <span class="dv" style="color: #AD0000;">1</span>,</span>
-<span id="cb5-8">  <span class="at" style="color: #657422;">show_col_types =</span> <span class="cn" style="color: #8f5902;">FALSE</span>)</span>
-<span id="cb5-9"><span class="fu" style="color: #4758AB;">ojs_define</span>(<span class="at" style="color: #657422;">census_data =</span> census_data)</span></code></pre></div>
+<div class="sourceCode cell-code hidden" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Load 2021 Australian census data on age and gender</span></span>
+<span id="cb5-2">census_data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read_csv</span>(</span>
+<span id="cb5-3">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">file =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"https://raw.githubusercontent.com/matt-lab/2021_census_stats/main/data/2021_sex-and-age.csv"</span>,</span>
+<span id="cb5-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">col_names =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'age'</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'male'</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'female'</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'total'</span>),</span>
+<span id="cb5-5">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">col_select =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'age'</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'total'</span>),</span>
+<span id="cb5-6">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">col_types =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">col_integer</span>()),</span>
+<span id="cb5-7">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">skip =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>,</span>
+<span id="cb5-8">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">show_col_types =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span>)</span>
+<span id="cb5-9"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ojs_define</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">census_data =</span> census_data)</span></code></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="56" data-source-offset="-48" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 55;"><span id="cb6-56">census_data_transposed <span class="op" style="color: #5E5E5E;">=</span> <span class="fu" style="color: #4758AB;">transpose</span>(census_data)</span>
-<span id="cb6-57"><span class="im" style="color: #00769E;">import</span> {addTooltips} <span class="im" style="color: #00769E;">from</span> <span class="st" style="color: #20794D;">"@mkfreeman/plot-tooltip"</span></span>
+<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="56" data-source-offset="-48" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 55;"><span id="cb6-56">census_data_transposed <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">transpose</span>(census_data)</span>
+<span id="cb6-57"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> {addTooltips} <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"@mkfreeman/plot-tooltip"</span></span>
 <span id="cb6-58"></span>
-<span id="cb6-59"><span class="fu" style="color: #4758AB;">addTooltips</span>(</span>
-<span id="cb6-60">  Plot<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">barX</span>(census_data_transposed<span class="op" style="color: #5E5E5E;">,</span> {</span>
-<span id="cb6-61">    <span class="dt" style="color: #AD0000;">x</span><span class="op" style="color: #5E5E5E;">:</span> <span class="st" style="color: #20794D;">"age"</span><span class="op" style="color: #5E5E5E;">,</span></span>
-<span id="cb6-62">    <span class="dt" style="color: #AD0000;">interval</span><span class="op" style="color: #5E5E5E;">:</span> <span class="dv" style="color: #AD0000;">1</span><span class="op" style="color: #5E5E5E;">,</span></span>
-<span id="cb6-63">    <span class="dt" style="color: #AD0000;">fill</span><span class="op" style="color: #5E5E5E;">:</span> <span class="st" style="color: #20794D;">"total"</span><span class="op" style="color: #5E5E5E;">,</span></span>
-<span id="cb6-64">    <span class="dt" style="color: #AD0000;">inset</span><span class="op" style="color: #5E5E5E;">:</span> <span class="dv" style="color: #AD0000;">0</span><span class="op" style="color: #5E5E5E;">,</span> </span>
-<span id="cb6-65">    <span class="dt" style="color: #AD0000;">title</span><span class="op" style="color: #5E5E5E;">:</span> (d) <span class="kw" style="color: #003B4F;">=&gt;</span> d<span class="op" style="color: #5E5E5E;">.</span><span class="at" style="color: #657422;">total</span> <span class="op" style="color: #5E5E5E;">+</span> <span class="st" style="color: #20794D;">" Australians"</span> <span class="op" style="color: #5E5E5E;">+</span> <span class="st" style="color: #20794D;">"</span><span class="sc" style="color: #5E5E5E;">\n</span><span class="st" style="color: #20794D;"> are "</span> <span class="op" style="color: #5E5E5E;">+</span> d<span class="op" style="color: #5E5E5E;">.</span><span class="at" style="color: #657422;">age</span> <span class="op" style="color: #5E5E5E;">+</span> <span class="st" style="color: #20794D;">" years old"</span></span>
-<span id="cb6-66">  })<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">plot</span>({</span>
-<span id="cb6-67">    <span class="dt" style="color: #AD0000;">color</span><span class="op" style="color: #5E5E5E;">:</span> {</span>
-<span id="cb6-68">      <span class="dt" style="color: #AD0000;">type</span><span class="op" style="color: #5E5E5E;">:</span> <span class="st" style="color: #20794D;">"linear"</span><span class="op" style="color: #5E5E5E;">,</span></span>
-<span id="cb6-69">      <span class="dt" style="color: #AD0000;">scheme</span><span class="op" style="color: #5E5E5E;">:</span> <span class="st" style="color: #20794D;">"reds"</span><span class="op" style="color: #5E5E5E;">,</span> </span>
-<span id="cb6-70">      <span class="dt" style="color: #AD0000;">legend</span><span class="op" style="color: #5E5E5E;">:</span> <span class="kw" style="color: #003B4F;">false</span></span>
-<span id="cb6-71">    }<span class="op" style="color: #5E5E5E;">,</span></span>
-<span id="cb6-72">    <span class="dt" style="color: #AD0000;">x</span><span class="op" style="color: #5E5E5E;">:</span> {<span class="dt" style="color: #AD0000;">label</span><span class="op" style="color: #5E5E5E;">:</span> <span class="st" style="color: #20794D;">"Age (years)"</span>}<span class="op" style="color: #5E5E5E;">,</span></span>
-<span id="cb6-73">    <span class="dt" style="color: #AD0000;">style</span><span class="op" style="color: #5E5E5E;">:</span> {<span class="dt" style="color: #AD0000;">paddingTop</span><span class="op" style="color: #5E5E5E;">:</span> <span class="dv" style="color: #AD0000;">50</span>}</span>
+<span id="cb6-59"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">addTooltips</span>(</span>
+<span id="cb6-60">  Plot<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">barX</span>(census_data_transposed<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> {</span>
+<span id="cb6-61">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">x</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"age"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span></span>
+<span id="cb6-62">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">interval</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span></span>
+<span id="cb6-63">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">fill</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"total"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span></span>
+<span id="cb6-64">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">inset</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> </span>
+<span id="cb6-65">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> (d) <span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=&gt;</span> d<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">total</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">" Australians"</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> are "</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> d<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">age</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">" years old"</span></span>
+<span id="cb6-66">  })<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>({</span>
+<span id="cb6-67">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">color</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> {</span>
+<span id="cb6-68">      <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">type</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"linear"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span></span>
+<span id="cb6-69">      <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">scheme</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"reds"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> </span>
+<span id="cb6-70">      <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">legend</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">false</span></span>
+<span id="cb6-71">    }<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span></span>
+<span id="cb6-72">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">x</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> {<span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">label</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Age (years)"</span>}<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span></span>
+<span id="cb6-73">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">style</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> {<span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">paddingTop</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">50</span>}</span>
 <span id="cb6-74">  })</span>
 <span id="cb6-75">)</span></code></pre></div>
 <div class="cell-output cell-output-display">

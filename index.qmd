@@ -26,15 +26,18 @@ about:
         -   text: Email
             href: mailto:matthew.andreotta@csiro.au
             icon: envelope
-        -   text: Twitter
-            href: https://twitter.com/MattAndreotta
-            icon: twitter
         -   text: Google Scholar
             href: https://scholar.google.com.au/citations?user=SWYKi-QAAAAJ
             icon: google
         -   text: Github
             href: https://github.com/matt-lab
             icon: github
+        -   text: LinkedIn
+            href: https://www.linkedin.com/in/matthew-andreotta/
+            icon: linkedin
+        -   text: Twitter
+            href: https://twitter.com/MattAndreotta
+            icon: twitter
 ---
 
 Welcome!
