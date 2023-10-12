@@ -50,4 +50,44 @@ data61_2019:
   for: Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO)
   location:
   type: presentation
-  setting: research labs
+  setting: research groups
+
+cms_2023:
+  title: "The psychological roots of the rejection (and acceptance) of science"
+  authors:
+    - me
+  year: 2023
+  html: workshop_cms-rejection-of-science
+  for: Centre for Marine Socioecology
+  location:
+  type: presentation
+  setting: research groups
+
+tki_2023:
+  title: "Science is a liar (sometimes): Questionable practices in research and communication"
+  authors:
+    - Cavve, B.
+    - me
+  year: 2023
+  pdf: tki2023.pdf
+  pptx: tki2023.pptx
+  for: Telethon Kids Institute
+  location:
+  type: presentation
+  setting: research groups
+
+uom_2023:
+  title: "Detecting and responding to moralised misinformation"
+  authors:
+      - me
+      - Paris, C.
+      - van Putten, I.
+      - Hurlstone, M. J.
+      - Walker, I.
+      - Boschetti, F.
+  year: 2023
+  html: workshop_moral-misinformation
+  for: Understanding and Countering Mis/Disinformation Workshop
+  location:
+  type: presentation
+  setting: conferences

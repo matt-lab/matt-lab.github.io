@@ -23,7 +23,10 @@ def readable_list(_s):
   return f"{', '.join(map(str, a))}, & {b}"
 def button(url, path, str, icon):
     icon_base = icon[:2]
-    url_full = f"assets/{path}/{url}"
+    if path is not None:
+        url_full = f"{path}/{url}"
+    else:
+        url_full = url
     return f"""<a class="btn btn-outline-dark btn-sm", href="{url_full}" target="_blank" rel="noopener noreferrer">
         <i class="{icon_base} {icon}" role='img' aria-label='{str}'></i>
         {str}
@@ -42,12 +45,15 @@ for _, data in yaml_data.items():
     
     buttons = []
     path = data.get("type")
+    html = data.get("html")
+    if html is not None:
+        buttons.append(button(html, None, "LINK", "bi-link"))
     pdf = data.get("pdf")
     if pdf is not None:
-        buttons.append(button(pdf, path, "PDF", "bi-file-earmark-pdf"))
+        buttons.append(button(pdf, f"assets/{path}", "PDF", "bi-file-earmark-pdf"))
     pptx = data.get("pptx")
     if pptx is not None:
-        buttons.append(button(pptx, path, "PPTX", "bi-filetype-pptx"))
+        buttons.append(button(pptx, f"assets/{path}", "PPTX", "bi-filetype-pptx"))
 
     delivered_to = data.get("for")
     location = data.get("location")

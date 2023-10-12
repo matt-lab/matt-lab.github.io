@@ -15,6 +15,13 @@ A selection of my conference presentations, seminars, talks to research labs, tu
 ### Conferences{#setting_conferences}
 
 ```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Andreotta, M.</strong>, Paris, C., van Putten, I., Hurlstone, M. J., Walker, I., & Boschetti, F. (2023). <em>Detecting and responding to moralised misinformation</em> for Understanding and Countering Mis/Disinformation Workshop.<br><a class="btn btn-outline-dark btn-sm", href="workshop_moral-misinformation" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-link" role='img' aria-label='LINK'></i>
+        LINK
+    </a></li></ul>
+```
+
+```{=html}
 <ul class='list-group list-group-flush'><li class='list-group-item'><strong>Andreotta, M.</strong>, Nugroho, R., Hurlstone, M. J., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). <em>Analysing social media: A mixed-methods framework for combining computational and text analysis</em> for the Australasian Mathematical Psychology Conference (AMPC).<br><a class="btn btn-outline-dark btn-sm", href="assets/presentation/ampc2019.pdf" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='PDF'></i>
         PDF
@@ -33,7 +40,21 @@ A selection of my conference presentations, seminars, talks to research labs, tu
     </a></li></ul>
 ```
 
-### Research labs{#setting_research-labs}
+### Research groups{#setting_research-groups}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Andreotta, M.</strong> (2023). <em>The psychological roots of the rejection (and acceptance) of science</em> for Centre for Marine Socioecology.<br><a class="btn btn-outline-dark btn-sm", href="workshop_cms-rejection-of-science" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-link" role='img' aria-label='LINK'></i>
+        LINK
+    </a></li>
+<li class='list-group-item'>Cavve, B. and <strong>Andreotta, M.</strong> (2023). <em>Science is a liar (sometimes): Questionable practices in research and communication</em> for Telethon Kids Institute.<br><a class="btn btn-outline-dark btn-sm", href="assets/presentation/tki2023.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='PDF'></i>
+        PDF
+    </a> <a class="btn btn-outline-dark btn-sm", href="assets/presentation/tki2023.pptx" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-filetype-pptx" role='img' aria-label='PPTX'></i>
+        PPTX
+    </a></li></ul>
+```
 
 ```{=html}
 <ul class='list-group list-group-flush'><li class='list-group-item'><strong>Andreotta, M.</strong>, Nugroho, R., Hurlstone, M. J., Boschetti, F., Farrell, S., Walker, I., & Paris, C. (2019). <em>Analysing social media: A mixed-methods framework for combining computational and text analysis</em> for Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO).<br><a class="btn btn-outline-dark btn-sm", href="assets/presentation/data2019.pdf" target="_blank" rel="noopener noreferrer">
