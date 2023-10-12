@@ -185,3 +185,28 @@ working_vaccine:
     volume:
     issue:
     pages:
+
+working_llm-systematic-reviews:
+  title: "Human-AI Collaboration to Identify Literature for Evidence Synthesis"
+  authors:
+    - Sillias, S.
+    - Paris, T.
+    - Andreotta, M.
+    - Annand-Jones, R.
+    - Boschetti, F.
+    - Cvitanovic, C.
+    - Duggan, J.
+    - Fulton, E.
+    - Karcher, D.
+    - Paris, C.
+    - Shellock, R.
+    - Trebilco, R.
+  year:
+  preprint: https://www.researchsquare.com/article/rs-3099291/v1
+  published_url:
+  github:
+  osf:
+  outlet:
+  volume:
+  issue:
+  pages:
