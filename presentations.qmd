@@ -60,7 +60,7 @@ for _, data in yaml_data.items():
     setting = data.get("setting")
     presentation_type = data.get("type")
 
-    presentation_str = f'{author_str} ({year}). <em>{title_str}</em> for {delivered_to}'
+    presentation_str = f'{author_str} ({year}). "<em>{title_str}</em>", for {delivered_to}'
 
     if location is not None:
         presentation_str += f" at {location}"
