@@ -1,0 +1,20 @@
+---
+title: 'Presentation: "Science is a liar (sometimes): Questionable practices in research and communication"'
+description: |
+    A presentation on the threats to scientific integrity.
+date: "2023-10-20"
+categories: [presentation, science, research, communication]
+from: markdown+emoji
+image: thumbnail.jpg
+draft: true
+---
+
+In early October, I co-presented with [Dr. Blake Cavve](https://www.telethonkids.org.au/contact-us/our-people/c/blake-cavve/) at the Telethon Kids Institute.
+Together, we explored the 'grey area' of acceptable research practice and communication.
+When conducting research, psychologists face a number of decisions when analysing data and communicating their results (e.g., what outliers to exclude from an analysis).
+The basis for these decisions are not always known and not all decisions are disclosed in publications.
+For some, the motivations to publish can shape decisions, known as "questionable research practices", and create a misleading science.
+In this interactive presentation, we explored what questionable research practices are, how they come to be, how they may be mitigated, and red flags to look out for in the literature.
+
+The slides are available as <a href="https://matt-lab.github.io/assets/presentation/tki2023.pdf" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-pdf" role="img" aria-label="PDF"></i>PDF</a> and 
+<a href="https://matt-lab.github.io/assets/presentation/tki2023.pptx" target="_blank" rel="noopener noreferrer"><i class="bi bi-filetype-pptx" role="img" aria-label="PPTX"></i>PowerPoint (PPTX)</a> files.
