@@ -15,7 +15,46 @@
 <link>https://matt-lab.github.io/index.html</link>
 </image>
 <generator>quarto-1.3.433</generator>
-<lastBuildDate>Mon, 01 May 2023 16:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 12 Oct 2023 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Workshop presentation: “Detecting and responding to moralised misinformation”</title>
+  <dc:creator>Matthew Andreotta</dc:creator>
+  <link>https://matt-lab.github.io/posts/2023-10-13_moral-misinformation/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Misleading can be more than a contest for truth, it can be a contest for hearts. In this contest, facts are a flexible rhetorical device to encourage particular convictions. Some of the most persuasive convictions are moral convictions, which concern what we believe is fundamentally right or wrong. Construing an issue in moral grounds, such as believing a group is morally corrupt or evil, has unique consequences for individuals and societies, akin to a double-edged sword. On one edge, such convictions can be a powerful force for collective action and selfless behaviour. On the other edge, moral convictions can make people uncompromising, hostile to opposition, and perpetrators of stigmatisation and aggression. Additionally, research indicates moral convictions, particularly those concerning moral violations, are shared widely in social media networks. Although not all moral rhetoric is misleading rhetoric, those seeking to persuade may ground their arguments in a moral perspective to encourage intense, enduring, and contagious convictions.</p>
+<p>At the University of Melbourne in September 2023, I explored the consequences and detection for moralised misinformation. I presented a natural language processing tool for detecting moralised language, with application to climate change contrarian messages and misinformation about the Russia’s war of aggression against Ukraine. Ultimately, I argued that whilst moralised rhetoric is not falsehood, it can shed light on the consequences and intervention of some of the most persuasive and emotive misinformation.</p>
+<p>The slides are available <a href="https://matt-lab.github.io/workshop_moral-misinformation">here</a>, and can be navigated using arrow keys or swiping with touch controls.</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{andreotta2023,
+  author = {Andreotta, Matthew},
+  title = {Workshop Presentation: “{Detecting} and Responding to
+    Moralised Misinformation”},
+  date = {2023-10-13},
+  url = {https://matt-lab.github.io/posts/2023-10-13_moral-misinformation},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-andreotta2023" class="csl-entry quarto-appendix-citeas">
+Andreotta, Matthew. 2023. <span>“Workshop Presentation: <span>‘Detecting
+and Responding to Moralised Misinformation’</span>.”</span> October 13,
+2023. <a href="https://matt-lab.github.io/posts/2023-10-13_moral-misinformation">https://matt-lab.github.io/posts/2023-10-13_moral-misinformation</a>.
+</div></div></section></div> ]]></description>
+  <category>presentation</category>
+  <category>moral</category>
+  <category>misinformation</category>
+  <category>disinformation</category>
+  <category>climate change</category>
+  <category>russia</category>
+  <category>ukraine</category>
+  <guid>https://matt-lab.github.io/posts/2023-10-13_moral-misinformation/index.html</guid>
+  <pubDate>Thu, 12 Oct 2023 16:00:00 GMT</pubDate>
+  <media:content url="https://matt-lab.github.io/posts/2023-10-13_moral-misinformation/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>New project: Moralisation of Marine Resources</title>
   <dc:creator>Matthew Andreotta</dc:creator>

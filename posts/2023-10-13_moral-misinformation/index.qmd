@@ -1,0 +1,15 @@
+---
+title: 'Workshop presentation: "Detecting and responding to moralised misinformation"'
+description: |
+    A presentation exploring how misinformation and disinformation leverages moral perceptions.
+date: "2023-10-13"
+categories: [presentation, moral, misinformation, disinformation, climate change, russia, ukraine]
+from: markdown+emoji
+image: thumbnail.jpg
+---
+
+Misleading can be more than a contest for truth, it can be a contest for hearts. In this contest, facts are a flexible rhetorical device to encourage particular convictions. Some of the most persuasive convictions are moral convictions, which concern what we believe is fundamentally right or wrong. Construing an issue in moral grounds, such as believing a group is morally corrupt or evil, has unique consequences for individuals and societies, akin to a double-edged sword. On one edge, such convictions can be a powerful force for collective action and selfless behaviour. On the other edge, moral convictions can make people uncompromising, hostile to opposition, and perpetrators of stigmatisation and aggression. Additionally, research indicates moral convictions, particularly those concerning moral violations, are shared widely in social media networks. Although not all moral rhetoric is misleading rhetoric, those seeking to persuade may ground their arguments in a moral perspective to encourage intense, enduring, and contagious convictions.
+
+At the University of Melbourne in September 2023, I explored the consequences and detection for moralised misinformation. I presented a natural language processing tool for detecting moralised language, with application to climate change contrarian messages and misinformation about the Russia's war of aggression against Ukraine. Ultimately, I argued that whilst moralised rhetoric is not falsehood, it can shed light on the consequences and intervention of some of the most persuasive and emotive misinformation.
+
+The slides are available [here](https://matt-lab.github.io/workshop_moral-misinformation), and can be navigated using arrow keys or swiping with touch controls.
