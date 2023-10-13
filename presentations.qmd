@@ -47,7 +47,7 @@ for _, data in yaml_data.items():
     path = data.get("type")
     html = data.get("html")
     if html is not None:
-        buttons.append(button(html, None, "LINK", "bi-link"))
+        buttons.append(button(html, None, "WEBSITE", "bi-link"))
     pdf = data.get("pdf")
     if pdf is not None:
         buttons.append(button(pdf, f"assets/{path}", "PDF", "bi-file-earmark-pdf"))
