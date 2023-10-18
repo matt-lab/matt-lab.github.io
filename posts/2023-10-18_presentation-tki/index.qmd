@@ -2,11 +2,10 @@
 title: 'Presentation: "Science is a liar (sometimes): Questionable practices in research and communication"'
 description: |
     A presentation on the threats to scientific integrity.
-date: "2023-10-20"
+date: "2023-10-18"
 categories: [presentation, science, research, communication]
 from: markdown+emoji
 image: thumbnail.jpg
-draft: true
 ---
 
 In early October, I co-presented with [Dr. Blake Cavve](https://www.telethonkids.org.au/contact-us/our-people/c/blake-cavve/) at the Telethon Kids Institute.
