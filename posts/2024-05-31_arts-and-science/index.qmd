@@ -1,0 +1,18 @@
+---
+title: 'Panel discussion: "Challenges in ocean research - how might art help?"'
+description: |
+    I joined a panel to discuss key challenges that face the marine environment.
+date: "2024-05-31"
+categories: [presentation, science, research, communication, art]
+from: markdown+emoji
+image: thumbnail.png
+---
+
+In April, I joined [Dr. Beth Fulton](https://people.csiro.au/F/B/Beth-Fulton.aspx) and [Dr. Fabio Boschetti](https://www.per.marine.csiro.au/staff/Fabio.Boschetti/index.html) in a [public panel discussion](https://www.uwa.edu.au/lwag/events/challenges-in-ocean-research---panel-discussion) at the University of Western Australia.
+Dr. Fulton lead the discussion, by highlighting the competing demands on the ocean including environmental, social, economic and cultural, all which influence the way we manage and impact the environment and it's ability to adapt to global change.
+Dr. Boschetti and myself lead audience discussions and introspective activities, to explore the role of art, science, and ourselves in the future of the ocean.
+More details on the event, including a recording and transcript are available on the [Lawrence Wilson Art Gallery website](https://www.uwa.edu.au/lwag/events/challenges-in-ocean-research---panel-discussion).
+
+
+This event was part of [The Ocean Project 2024](https://www.uwa.edu.au/lwag/partnerships/the-ocean-project-2024) at the  [Lawrence Wilson Art Gallery](https://www.uwa.edu.au/lwag).
+*The Ocean Project 2024* brings together art and science with the aim to make science more accessible to staff, student and the public alike, while illustrating the role art can play in communicating challenging ideas.
