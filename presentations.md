@@ -12,6 +12,15 @@ A selection of my conference presentations, seminars, talks to research labs, tu
 
 ## Presentations
 
+### Public{#setting_public}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'>Beth, F., <strong>Andreotta, M.</strong>, & Boschetti, F. (2024). "<em>Challenges in ocean research - how might art help?</em>", for the Lawrence Wilson Art Gallery, University of Western Australia.<br><a class="btn btn-outline-dark btn-sm", href="https://www.uwa.edu.au/lwag/events/challenges-in-ocean-research---panel-discussion" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-globe" role='img' aria-label='URL'></i>
+        URL
+    </a></li></ul>
+```
+
 ### Conferences{#setting_conferences}
 
 ```{=html}

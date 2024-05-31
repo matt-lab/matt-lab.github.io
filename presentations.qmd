@@ -54,6 +54,9 @@ for _, data in yaml_data.items():
     pptx = data.get("pptx")
     if pptx is not None:
         buttons.append(button(pptx, f"assets/{path}", "PPTX", "bi-filetype-pptx"))
+    url = data.get("url")
+    if url is not None:
+        buttons.append(button(url, None, "URL", "bi-globe"))
 
     delivered_to = data.get("for")
     location = data.get("location")
