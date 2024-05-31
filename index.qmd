@@ -35,9 +35,6 @@ about:
         -   text: LinkedIn
             href: https://www.linkedin.com/in/matthew-andreotta/
             icon: linkedin
-        -   text: Twitter
-            href: https://twitter.com/MattAndreotta
-            icon: twitter
 ---
 
 Welcome!
