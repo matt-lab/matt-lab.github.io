@@ -18,7 +18,9 @@ In my scientific pursuits, I have had the pleasure of working with researchers f
 <ul class='list-group list-group-flush'><li class='list-group-item'><a href="http://mark-hurlstone.github.io/" target="_blank">Mark Hurlstone</a>, Lancaster University.</li>
 <li class='list-group-item'><a href="https://findanexpert.unimelb.edu.au/profile/676978-iain-walker" target="_blank">Iain Walker</a>, University of Melbourne.</li>
 <li class='list-group-item'><a href="https://psy-farrell.github.io/" target="_blank">Simon Farrell</a>, University of Western Australia.</li>
-<li class='list-group-item'><a href="https://www.emc-lab.org/" target="_blank">Ullrich Ecker</a>, University of Western Australia.</li></ul>
+<li class='list-group-item'><a href="https://www.emc-lab.org/" target="_blank">Ullrich Ecker</a>, University of Western Australia.</li>
+<li class='list-group-item'><a href="https://researchmap.jp/jhori?lang=en" target="_blank">Juri Hori</a>, Ministry of Agriculture, Forestry and Fisheries of Japan.</li>
+<li class='list-group-item'><a href="https://www.researchgate.net/profile/Nathalie-Krien" target="_blank">Nathalie Krein</a>, &#201;cole nationale sup&#233;rieure de techniques avanc&#233;es Bretagne.</li></ul>
 ```
 
 ### Data science{#expertise-data-science}
@@ -37,13 +39,49 @@ In my scientific pursuits, I have had the pleasure of working with researchers f
 ### Economics{#expertise-economics}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'><a href="https://people.csiro.au/V/I/Ingrid-Vanputten" target="_blank">Ingrid van Putten</a>, Environment, Commonwealth Scientific and Industrial Research Organisation.</li></ul>
+<ul class='list-group list-group-flush'><li class='list-group-item'><a href="https://people.csiro.au/V/I/Ingrid-Vanputten" target="_blank">Ingrid van Putten</a>, Environment, Commonwealth Scientific and Industrial Research Organisation.</li>
+<li class='list-group-item'><a href="https://www.fisheries.noaa.gov/contact/daniel-k-lew" target="_blank">Dan Lew</a>, National Oceanic and Atmospheric Administration, United States.</li>
+<li class='list-group-item'><a href="https://www.fondationbiodiversite.fr/en/membre/olivier-thebaud/" target="_blank">Olivier Th&#233;baud</a>, Institut Fran&#231;ais de Recherche pour l'Exploitation de la Mer.</li>
+<li class='list-group-item'><a href="https://fr.linkedin.com/in/sophie-leonardi-10a51b54" target="_blank">Sophie Leonardi</a>, Institut Fran&#231;ais de Recherche pour l'Exploitation de la Mer.</li></ul>
 ```
 
 ### Environmental science{#expertise-environmental-science}
 
 ```{=html}
 <ul class='list-group list-group-flush'><li class='list-group-item'><a href="https://orcid.org/0000-0001-9324-401X" target="_blank">Lucy Robinson</a>, Oceans & Atmosphere, Commonwealth Scientific and Industrial Research Organisation.</li></ul>
+```
+
+### Marine ecology{#expertise-marine-ecology}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'><a href="https://marinesocioecology.org/team/scott-spillias/" target="_blank">Scott Spillias</a>, Environment, Commonwealth Scientific and Industrial Research Organisation.</li>
+<li class='list-group-item'><a href="https://marinesocioecology.org/team/prof-gretta-pecl/" target="_blank">Gretta Pecl</a>, University of Tasmania.</li></ul>
+```
+
+### Communication{#expertise-communication}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'><a href="https://marinesocioecology.org/team/corrine-condie/" target="_blank">Corrine Condie</a>, Environment, Commonwealth Scientific and Industrial Research Organisation.</li>
+<li class='list-group-item'><a href="https://www.linkedin.com/in/carly-lubicz-b0b35525/?originalSubdomain=au" target="_blank">Carley Lubicz-Zaorski</a>, Digital Media Research Centre, Queensland University of Technology.</li></ul>
+```
+
+### Computational modelling{#expertise-computational-modelling}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'><a href="https://people.csiro.au/C/S/Scott-Condie" target="_blank">Scott Condie</a>, Environment, Commonwealth Scientific and Industrial Research Organisation.</li></ul>
+```
+
+### Policy and governance{#expertise-policy-and-governance}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'><a href="https://makino-marine.jimdofree.com/" target="_blank">Mitsutaku Makino</a>, Fisheries Management Group of the Fisheries Research Agency, Japan.</li>
+<li class='list-group-item'><a href="https://research.jcu.edu.au/portfolio/tiffany.morrison/" target="_blank">Tiffany Morrison</a>, James Cook University.</li></ul>
+```
+
+### Journalism{#expertise-journalism}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'><a href="https://discover.utas.edu.au/Gabi.Mocatta" target="_blank">Gabi Mocatta</a>, Deakan University & University of Tasmania.</li></ul>
 ```
 
 ### Meta-research{#expertise-meta-research}
