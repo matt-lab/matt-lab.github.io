@@ -5,7 +5,7 @@ description: |
 date: "2023-05-02"
 categories: [research, project, marine, public perceptions, moral]
 from: markdown+emoji
-image: https://upload.wikimedia.org/wikipedia/commons/b/b9/An_illustration_of_Moral_foundations_Theory_created_by_Aprilia_Muktirina.jpg
+image: thumbnail.webp
 ---
 
 📣 I'm excited to announce a new project 📣
@@ -51,7 +51,7 @@ The foundation of **respect** reflects virtues of leadership and followership, f
 The foundation of **sanctity** reflects an eclectic range of virtues of cleanliness, holiness, and self-control, featured in environmental concerns for pollution and religious concerns for the environment.
 
 :::{.column-body}
-![An illustration of Moral Foundations Theory created by [Aprilia Muktirina](https://www.behance.net/heyapriliaa/projects) [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)](https://upload.wikimedia.org/wikipedia/commons/b/b9/An_illustration_of_Moral_foundations_Theory_created_by_Aprilia_Muktirina.jpg)
+![An illustration of Moral Foundations Theory created by [Aprilia Muktirina](https://www.behance.net/heyapriliaa/projects) [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)](thumbnail.webp)
 :::
 
 As part of this research, I'll be examining moral content at different granular levels using a [natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) algorithm.

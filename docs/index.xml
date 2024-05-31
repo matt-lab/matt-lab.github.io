@@ -149,8 +149,8 @@ and Responding to Moralised Misinformation’</span>.”</span> October 13,
 <div class="column-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://matt-lab.github.io/posts/2023-05-02_moral-tracing/https:/upload.wikimedia.org/wikipedia/commons/b/b9/An_illustration_of_Moral_foundations_Theory_created_by_Aprilia_Muktirina.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">An illustration of Moral Foundations Theory created by <a href="https://www.behance.net/heyapriliaa/projects">Aprilia Muktirina</a> <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a></figcaption><p></p>
+<p><img src="https://matt-lab.github.io/posts/2023-05-02_moral-tracing/thumbnail.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">An illustration of Moral Foundations Theory created by <a href="https://www.behance.net/heyapriliaa/projects">Aprilia Muktirina</a> <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a></figcaption>
 </figure>
 </div>
 </div>
@@ -174,7 +174,7 @@ and Responding to Moralised Misinformation’</span>.”</span> October 13,
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>Rabia I. Kodapanakkal and colleagues have <a href="https://doi.org/10.1177/09567976211040803">conducted experiments on the impact of moral and non-moral language on attitudes</a>.↩︎</p></li>
@@ -183,15 +183,15 @@ and Responding to Moralised Misinformation’</span>.”</span> October 13,
 <li id="fn4"><p>The changes and impacts are described in more detail in an <a href="https://independenttechresearch.org/letter-twitters-new-api-plans-will-devastate-public-interest-research/">April letter by the Coalition for Independent Technology Research</a>.↩︎</p></li>
 <li id="fn5"><p>For more information on Australian’s privacy rights on social media, please read <a href="https://www.oaic.gov.au/privacy/your-privacy-rights/social-media-and-online-privacy/social-media">this webpage</a> by the Australian Government’s Office of the Australian Information Commissioner.↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{andreotta2023,
-  author = {Matthew Andreotta},
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{andreotta2023,
+  author = {Andreotta, Matthew},
   title = {New Project: {Moralisation} of {Marine} {Resources}},
   date = {2023-05-02},
   url = {https://matt-lab.github.io/posts/2023-05-02_moral-tracing},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-andreotta2023" class="csl-entry quarto-appendix-citeas">
-Matthew Andreotta. 2023. <span>“New Project: Moralisation of Marine
+Andreotta, Matthew. 2023. <span>“New Project: Moralisation of Marine
 Resources.”</span> May 2, 2023. <a href="https://matt-lab.github.io/posts/2023-05-02_moral-tracing">https://matt-lab.github.io/posts/2023-05-02_moral-tracing</a>.
 </div></div></section></div> ]]></description>
   <category>research</category>
@@ -201,7 +201,7 @@ Resources.”</span> May 2, 2023. <a href="https://matt-lab.github.io/posts/2023
   <category>moral</category>
   <guid>https://matt-lab.github.io/posts/2023-05-02_moral-tracing/index.html</guid>
   <pubDate>Mon, 01 May 2023 16:00:00 GMT</pubDate>
-  <media:content url="https://upload.wikimedia.org/wikipedia/commons/b/b9/An_illustration_of_Moral_foundations_Theory_created_by_Aprilia_Muktirina.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://matt-lab.github.io/posts/2023-05-02_moral-tracing/thumbnail.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>First impressions of Observable JS: A language for interactive data visualisations</title>
