@@ -22,7 +22,7 @@ llm_systematic_reviews:
   title: "Human-AI Collaboration to identify literature for evidence synthesis"
   authors:
     - Spillias, S.
-    - Paris, T.
+    - Tuohy, P.
     - me
     - Annand-Jones, R.
     - Boschetti, F.
@@ -33,14 +33,14 @@ llm_systematic_reviews:
     - Paris, C.
     - Shellock, R.
     - Trebilco, R.
-  year: in-press
+  year: 2024
   preprint: https://www.researchsquare.com/article/rs-3099291/v1
-  published_url:
+  published_url: https://www.sciencedirect.com/science/article/pii/S2949790624002076
   github:
   osf:
   outlet: Cell Reports Sustainability
-  volume:
-  issue:
+  volume: 1
+  issue: 7
   pages:
   highlight: <p>How well can large-language models, like that underlying OpenAI's ChatGPT, do a scientist's job? Scott Spillias put a team of scientists and a team of AI users to the test, asking both teams to review the literature for a specifiic topic&mdash;community-based fisheries management. Our research found that the large-language model could not create a sensible strategy for identifying relevant literature (e.g., what to type into a search bar). However, when given an article, the large-language model and human team generally agreed on the articles relevance. This suggesting tools like ChatGPT could be used to help humans screen relevant literature.</p>
 
