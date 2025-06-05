@@ -18,6 +18,8 @@ website:
       - presentations.qmd
       - collaborators.qmd
     right:
+      - href: assets/cv/cv-short.pdf
+        text: Industry CV
       - href: assets/cv/cv.pdf
         text: Academic CV
 format:
