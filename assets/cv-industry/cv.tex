@@ -1,0 +1,85 @@
+%!TEX encoding = UTF-8 Unicode
+% LaTeX Template for CV/Resume
+%
+% This template has been downloaded and modified from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Original Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Modified (March 2019) by:
+% Jessica A. Rick <jrick@uwyo.edu>
+% http://www.jessicarick.com
+% 
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, letterpaper, draft]{academic-cv}
+
+% Configure page margins with geometry
+\geometry{left=0.75in, top=0.75in, right=0.75in, bottom=0.75in, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+\name{Matthew Andreotta}{}
+%\position{Postdoctoral Fellow{\enskip\cdotp\enskip}Psychology{\enskip\cdotp\enskip}Data Science}
+\address{Perth, Western Australia}
+
+%\mobile{+61 481 394 237}
+\email{matthewandreotta@gmail.com}
+\homepage{matt-lab.github.io}
+%\homepage{\href{https://matt-lab.github.io/}{matt-lab.github.io}}
+%\github{mygithub}
+\linkedin{@matthew-andreotta}
+% \gitlab{my-gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@MattAndreotta}
+ %\twitter{\href{https://twitter.com/mattandreotta}{@MattAndreotta}}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\monthyeardate\today}
+  {Matthew Andreotta ~~~·~~~ RESUME}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%   Comment out any sections that are not appropriate for your CV
+%-------------------------------------------------------------------------------
+
+\input{cv/professional.tex}
+\input{cv/education.tex}
+\input{cv/skills.tex}
+
+% Maybe add a list of 'lifetime deliverables', summarising: total award funding, total publications (with hyperlinks)
+
+%-------------------------------------------------------------------------------
+\end{document}

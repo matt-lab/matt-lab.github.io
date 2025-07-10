@@ -44,6 +44,27 @@ llm_systematic_reviews:
   pages:
   highlight: <p>How well can large-language models, like that underlying OpenAI's ChatGPT, do a scientist's job? Scott Spillias put a team of scientists and a team of AI users to the test, asking both teams to review the literature for a specifiic topic&mdash;community-based fisheries management. Our research found that the large-language model could not create a sensible strategy for identifying relevant literature (e.g., what to type into a search bar). However, when given an article, the large-language model and human team generally agreed on the articles relevance. This suggesting tools like ChatGPT could be used to help humans screen relevant literature.</p>
 
+
+coral_coverage_discussion:
+    title: "Steering Great Barrier Reef climate science narratives through the mediasphere in a time of misinformation"
+    authors:
+      - me
+      - Mocatta, G.
+      - Lubicz-Zaorski, C.
+      - Morrison, T. H.
+      - van Putten, I.
+      - Pecl, G.
+    year: in-press
+    preprint:
+    published_url:
+    github:
+    osf:
+    outlet: npj Climate Action
+    volume:
+    issue:
+    pages:
+    highlight: <p>In this study, we explored how the media reported on a 2022 report from the Australian Institute of Marine Science (AIMS) about coral cover on the Great Barrier Reef. We found that the media reporting was often misleading, which was reflected by a spike in climate science denial expressed on social media.</p>   
+
 llm_systematic_extraction:
   title: "Evaluating generative AI for qualitative data extraction in community-based fisheries management literature"
   authors:
@@ -293,23 +314,3 @@ working_ocean_survey:
     issue:
     pages:
 
-
-
-working_academic:
-    title: "Steering Great Barrier Reef climate science narratives through the mediasphere in a time of misinformation"
-    authors:
-      - me
-      - Mocatta, G.
-      - Lubicz-Zaorski, C.
-      - Morrison, T.
-      - van Putten, I.
-      - Pecl, G.
-    year:
-    preprint:
-    published_url:
-    github:
-    osf:
-    outlet:
-    volume:
-    issue:
-    pages:
