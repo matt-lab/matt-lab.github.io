@@ -22,10 +22,10 @@ about:
     image-width: 15em
     links:
         -   text: Perth, Western Australia
-            href: https://iomrc.org/
+#            href: https://iomrc.org/
             icon: geo-alt
         -   text: Email
-            href: mailto:matthew.andreotta@csiro.au
+            href: mailto:matthewandreotta@gmail.com
             icon: envelope
         -   text: Github
             href: https://github.com/matt-lab

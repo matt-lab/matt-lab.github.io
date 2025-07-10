@@ -1,0 +1,142 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Collaborations\"\n",
+        "echo: false\n",
+        "jupyter: python3\n",
+        "section-divs: false\n",
+        "keep-md: true\n",
+        "---\n",
+        "\n",
+        "\n",
+        "In my scientific pursuits, I have had the pleasure of working with researchers from a range of disciplines.\n"
+      ],
+      "id": "65e179fa"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "# Inspired by https://ddimmery.com/posts/quarto-website/\n",
+        "# Drew Dimmery. 2022. “Quarto for an Academic Website.” May 11, 2022. https://ddimmery.com/posts/quarto-website.\n",
+        "import yaml\n",
+        "from IPython.display import display, Markdown, HTML\n",
+        "from datetime import date\n",
+        "\n",
+        "\n",
+        "yaml_data = yaml.safe_load(open(\"collaborators.yml\"))\n",
+        "collab_strs = {\"collab\": {}, \"students\": {}}\n",
+        "\n",
+        "for _, data in yaml_data.items():\n",
+        "    name = data[\"name\"]\n",
+        "    is_student = \"student\" in data.keys()\n",
+        "    has_website = \"website\" in data.keys()\n",
+        "    has_affiliation = \"affiliation\" in data.keys()\n",
+        "\n",
+        "    if is_student:\n",
+        "        is_student = data[\"student\"]\n",
+        "\n",
+        "\n",
+        "    if is_student:\n",
+        "        project = data[\"project\"]\n",
+        "        affiliation = data[\"affiliation\"]\n",
+        "        has_cosupervision = \"supervision\" in data.keys()\n",
+        "\n",
+        "        collab_str = f\"{name},\"\n",
+        "\n",
+        "        if has_cosupervision:\n",
+        "            collab_str += f' co-supervised with {data[\"supervision\"]} at'\n",
+        "        \n",
+        "        collab_str += f\" the {affiliation}\"\n",
+        "\n",
+        "        if project not in collab_strs[\"students\"]:\n",
+        "            collab_strs[\"students\"][project] = []\n",
+        "        collab_strs[\"students\"][project].append(\"<li class='list-group-item'>\" + collab_str + \".\" + \"</li>\")\n",
+        "\n",
+        "\n",
+        "        \n",
+        "    else:\n",
+        "        expertise = data[\"expertise\"]\n",
+        "\n",
+        "        if not has_website:\n",
+        "            collab_str = name\n",
+        "        else:\n",
+        "            collab_str = f'<a href=\"{data[\"website\"]}\" target=\"_blank\">{name}</a>'\n",
+        "        if has_affiliation:\n",
+        "            collab_str += f', {data[\"affiliation\"]}'\n",
+        "        \n",
+        "        if expertise not in collab_strs[\"collab\"]:\n",
+        "            collab_strs[\"collab\"][expertise] = []\n",
+        "        collab_strs[\"collab\"][expertise].append(\"<li class='list-group-item'>\" + collab_str + \".\" + \"</li>\")"
+      ],
+      "id": "7805e7e8",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Collaborators\n"
+      ],
+      "id": "3448fc1c"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: collaborators\n",
+        "#| output: asis\n",
+        "for expertise in collab_strs[\"collab\"].keys():\n",
+        "    expertise_key = expertise.replace(\" \", \"-\")\n",
+        "    expertise_title = expertise.capitalize()\n",
+        "    display(Markdown(f\"### {expertise_title}\" + \"{#\" + f\"expertise-{expertise_key}\" + \"}\"))\n",
+        "    display(HTML(\n",
+        "        \"<ul class='list-group list-group-flush'>\" + '\\n'.join(collab_strs[\"collab\"][expertise]) + \"</ul>\"\n",
+        "    ))"
+      ],
+      "id": "collaborators",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Supervised students\n"
+      ],
+      "id": "3f7e2073"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: students\n",
+        "#| output: asis\n",
+        "for project in collab_strs[\"students\"].keys():\n",
+        "    project_key = project.replace(\" \", \"-\")\n",
+        "    project_title = project.capitalize()\n",
+        "    display(Markdown(f\"### {project_title}\" + \"{#\" + f\"expertise-{project_key}\" + \"}\"))\n",
+        "    display(HTML(\n",
+        "        \"<ul class='list-group list-group-flush'>\" + '\\n'.join(collab_strs[\"students\"][project]) + \"</ul>\"\n",
+        "    ))"
+      ],
+      "id": "students",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
