@@ -28,7 +28,7 @@ llm_systematic_reviews:
     - Boschetti, F.
     - Cvitanovic, C.
     - Duggan, J.
-    - Fulton, E.
+    - Fulton, B.
     - Karcher, D.
     - Paris, C.
     - Shellock, R.
@@ -43,6 +43,29 @@ llm_systematic_reviews:
   issue: 7
   pages:
   highlight: <p>How well can large-language models, like that underlying OpenAI's ChatGPT, do a scientist's job? Scott Spillias put a team of scientists and a team of AI users to the test, asking both teams to review the literature for a specifiic topic&mdash;community-based fisheries management. Our research found that the large-language model could not create a sensible strategy for identifying relevant literature (e.g., what to type into a search bar). However, when given an article, the large-language model and human team generally agreed on the articles relevance. This suggesting tools like ChatGPT could be used to help humans screen relevant literature.</p>
+
+llm_systematic_extraction:
+  title: "Evaluating generative AI for qualitative data extraction in community-based fisheries management literature"
+  authors:
+    - Spillias, S.
+    - Ollerhead, K. M.
+    - me
+    - Annand-Jones, R.
+    - Boschetti, F.
+    - Duggan, J.
+    - Karcher, D.
+    - Paris, C.
+    - Shellock, R. J.
+    - Trebilco, R.
+  year: 2025
+  published_url: https://link.springer.com/article/10.1186/s13750-025-00362-9
+  github:
+  osf:
+  outlet: Environmental Evidence
+  volume: 14
+  issue: 9
+  pages:
+  highlight: <p> Scott Spillias lead a team of researchers to investigate how well generative AI can extract qualitative data from scientific articles. We compared the performance of AI tools (GPT-4-Turbo, Elicit) to human reviewers in extracting methods and findings from 33 peer-reviewed community-based fisheries management papers. Generally, the AI tools were not reliable in identifying whether an article had, or did not have, data relevant to the research question. However, at least one AI tool's extractions were comparable to human reviewers, suggesting that AI has potential to support the data extraction phase of evidence synthesis in research.</p>
 
 royal_commission:
     title: "Does pain matter in the Australian Royal Commission into Aged Care Quality and Safety? A text mining study"
