@@ -1,6 +1,6 @@
 ---
 title: "Matthew Andreotta"
-image: assets\images\me.jfif
+image: assets\images\me-square.jpg
 listing:
   feed: true
   contents: posts
@@ -16,6 +16,7 @@ page-layout: full
 title-block-banner: false
 
 about:
+    id: about
     template: solana
     image-shape: round
     image-width: 15em
@@ -37,6 +38,8 @@ about:
             icon: google
 ---
 
+:::{#about}
+
 Welcome!
 
 I am a social and cognitive psychologist interested in belief formation and change. I blend psychology with data science techniques to identify meaningful patterns in social media data that reflect public perceptions and opinions. I have applied my methods to pressing societal issues, such as climate change, the influence of misinformation, and detection of research with misconduct or integrity concerns. More broadly, I aim to make science more accessible to scientists and the public alike. A more comprehensive account of my history can be found in <a href="https://matt-lab.github.io/assets/cv/cv.pdf" target="_blank" rel="noopener noreferrer">my academic curriculum vitae</a>.
@@ -44,5 +47,7 @@ I am a social and cognitive psychologist interested in belief formation and chan
 I hold a postdoctoral fellowship at the Commonwealth Scientific and Industrial Research Organisation (CSIRO). The aim of my current research is to develop semi-automated approaches to monitor social acceptance and social change concerning the marine environment. Building on social psychology theory and current advances in Big Data, I aim to pre-empt conflict and identify the antecedents of public support.
 
 I am open to collaborations, invitations for guest lectures, co-supervision of students, and projects that increase the accessibility of science. If you are interested in working with me, please reach out.
+
+:::
 
 # Recent updates
